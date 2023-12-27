@@ -33,7 +33,7 @@
                                     "Korgalzhyn"</p>
                             </li>
                             <li>
-                                <span class="icon flaticon-smartphone-2"></span>
+                                <span class="icon flaticon-headphones"></span>
                                 <div class="ml-3">
                                     <h6 class="m-0">ЦКЦ</h6>
                                     <p class="m-0">+7(747) 095 12-42</p>
@@ -41,7 +41,7 @@
                                 </div>
                             </li>
 
-                            <li><span class="icon flaticon-smartphone-2"></span>
+                            <li><span class="icon flaticon-headphones"></span>
                                 <div class="ml-3">
                                     <h6 class="m-0">ЦКЦ Корпоративный отдел</h6>
                                     <p class="m-0">+7(747) 095 12-42</p>
@@ -57,13 +57,13 @@
                                 <p class="m-0">Мызы 16/1, ТД Альшемали, <br>офис 412-413</p>
                             </li>
                             <li>
-                                <span class="icon flaticon-smartphone-2"></span>
+                                <span class="icon flaticon-headphones"></span>
                                 <div class="ml-3">
                                     <p class="m-0">+7(747) 095 12-26</p>
                                 </div>
                             </li>
 
-                            <li><span class="icon flaticon-smartphone-2"></span>
+                            <li><span class="icon flaticon-headphones"></span>
                                 <div class="ml-3">
                                     <p class="m-0">+7(723)220 85-02</p>
                                 </div>
@@ -77,13 +77,13 @@
                                 <p class="m-0">Площадь Абая 5, <br>Бизнес-центр "Жаксылык", 101 офис</p>
                             </li>
                             <li>
-                                <span class="icon flaticon-smartphone-2"></span>
+                                <span class="icon flaticon-headphones"></span>
                                 <div class="ml-3">
                                     <p class="m-0">+7(747) 095 12-25</p>
                                 </div>
                             </li>
 
-                            <li><span class="icon flaticon-smartphone-2"></span>
+                            <li><span class="icon flaticon-headphones"></span>
                                 <div class="ml-3">
                                     <p class="m-0">+7(722) 236 03-30</p>
                                 </div>
@@ -97,13 +97,13 @@
                                 <p class="m-0">Момышулы 41а, 3 этаж</p>
                             </li>
                             <li>
-                                <span class="icon flaticon-smartphone-2"></span>
+                                <span class="icon flaticon-headphones"></span>
                                 <div class="ml-3">
                                     <p class="m-0">+7(747) 095 12-17</p>
                                 </div>
                             </li>
 
-                            <li><span class="icon flaticon-smartphone-2"></span>
+                            <li><span class="icon flaticon-headphones"></span>
                                 <div class="ml-3">
                                     <p class="m-0">+7(716) 290 11-38</p>
                                 </div>
@@ -117,14 +117,14 @@
                                 <p class="m-0">Исиналиева Михаила 1a, 202 офис</p>
                             </li>
                             <li>
-                                <span class="icon flaticon-smartphone-2"></span>
+                                <span class="icon flaticon-headphones"></span>
                                 <div class="ml-3">
                                     <p class="m-0">+7(747) 095 12-32</p>
                                     <p class="m-0">+7(718) 239 08-64</p>
                                 </div>
                             </li>
 
-                            <li><span class="icon flaticon-smartphone-2"></span>
+                            <li><span class="icon flaticon-headphones"></span>
                                 <div class="ml-3">
                                     <p class="m-0">Экибастуз</p>
                                     <p class="m-0">+7(747) 095 12-40</p>
@@ -139,13 +139,13 @@
                                 <p class="m-0">Кожанова 41/1</p>
                             </li>
                             <li>
-                                <span class="icon flaticon-smartphone-2"></span>
+                                <span class="icon flaticon-headphones"></span>
                                 <div class="ml-3">
                                     <p class="m-0">+7(747) 095 12-19</p>
                                 </div>
                             </li>
 
-                            <li><span class="icon flaticon-smartphone-2"></span>
+                            <li><span class="icon flaticon-headphones"></span>
                                 <div class="ml-3">
                                     <p class="m-0">Кентау: +7(747) 095 12-24</p>
                                     <p class="m-0">Тюлькубас: +7(747) 095 12-16</p>

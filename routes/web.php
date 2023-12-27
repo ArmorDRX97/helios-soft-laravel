@@ -70,8 +70,12 @@ Route::get('/certificates', function () {
     return view('pages/certificates');
 });
 
-Route::get('/services', function () {
-    return view('pages/services');
+Route::get('/service-favorit', function () {
+    return view('pages/service-favorit');
+});
+
+Route::get('/service-cloud', function () {
+    return view('pages/service-cloud');
 });
 
 

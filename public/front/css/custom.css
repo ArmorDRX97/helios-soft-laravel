@@ -4457,7 +4457,7 @@ img {
 }
 
 @media only screen and (max-width: 991px) {
-    .fixed-header .sticky-header {
+    .header-upper.style-six {
         display: none !important
     }
 
@@ -4600,10 +4600,6 @@ img {
 
     .main-menu .navbar-collapse > .navigation > li > a {
         padding-left: 0 !important
-    }
-
-    .main-menu .navbar-collapse > .navigation > li.current-menu-item > a, .main-menu .navbar-collapse > .navigation > li.current > a, .main-menu .navbar-collapse > .navigation > li:hover > a, .main-menu .navbar-collapse > .navigation > li > ul > li:hover > a, .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a {
-        color: #fff !important
     }
 
     .main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn {
@@ -8717,20 +8713,6 @@ img {
     height: 250px
 }
 
-.page-title h1 {
-    position: relative;
-    font-size: 52px;
-    line-height: 1em;
-    font-weight: 600;
-    margin-bottom: 5px;
-    letter-spacing: 1px;
-    color: #fff;
-    text-transform: capitalize
-}
-
-.page-title .bread-crumb {
-    position: relative
-}
 
 .page-title .bread-crumb li {
     position: relative;
@@ -13725,8 +13707,10 @@ img {
 }
 
 @media only screen and (max-width: 991px) {
-    .fixed-header .sticky-header {
-        display: none !important
+    .main-header .sticky-header {
+        opacity: 1!important;
+        visibility: visible!important;
+        animation: none!important;
     }
 
     .main-menu .navbar-header {
@@ -13870,9 +13854,6 @@ img {
         padding-left: 0 !important
     }
 
-    .main-menu .navbar-collapse > .navigation > li.current-menu-item > a, .main-menu .navbar-collapse > .navigation > li.current > a, .main-menu .navbar-collapse > .navigation > li:hover > a, .main-menu .navbar-collapse > .navigation > li > ul > li:hover > a, .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a {
-        color: #fff !important
-    }
 
     .main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn {
         display: block
@@ -14104,15 +14085,6 @@ img {
     max-width: 650px;
     background-color: rgba(255, 255, 255, .7);
     padding: 50px
-}
-
-.main-slider2 h1 {
-    position: relative;
-    color: #fff;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 62px;
-    margin-bottom: 20px
 }
 
 .main-slider2 .dark h1 {
@@ -17990,7 +17962,6 @@ img {
     margin-bottom: 5px;
     letter-spacing: 1px;
     color: #fff;
-    text-transform: capitalize
 }
 
 .page-title .bread-crumb {
@@ -18353,7 +18324,7 @@ img {
 }
 
 .social-icon-three li a:hover {
-    background-color: #b73637
+    background-color: #f79210
 }
 
 .main-footer .services-widget {

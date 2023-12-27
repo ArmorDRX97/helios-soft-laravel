@@ -11,7 +11,7 @@
                         компании <b>любого уровня</b></p>
                     <div class="link-btn">
                         <a href="#!" class="theme-btn btn-style-one"><i class="fa fa-download mr-3"></i>Скачать</a>
-                        <a href="contact.html" class="theme-btn btn-style-seven">Связаться с нами</a>
+                        <a href="/contact" class="theme-btn btn-style-seven">Связаться с нами</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">

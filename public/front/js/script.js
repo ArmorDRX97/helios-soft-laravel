@@ -25,6 +25,43 @@
         }
     }
 
+
+    if (window.innerWidth <= 768) {
+        const container = document.querySelector('.map-container');
+        if(container) {
+            let isScrolling = true;
+            let scrollDirection = 'right'; // Начинаем с прокрутки вправо
+
+// Функция для автоматической прокрутки
+            function scroll() {
+                if (isScrolling) {
+                    if (scrollDirection === 'right') {
+                        container.scrollLeft += 1;
+                        if (container.scrollLeft >= container.scrollWidth - container.clientWidth) {
+                            // Если достигнут конец вправо, меняем направление на лево
+                            scrollDirection = 'left';
+                        }
+                    } else {
+                        container.scrollLeft -= 1;
+                        if (container.scrollLeft <= 0) {
+                            // Если достигнут конец влево, меняем направление на право
+                            scrollDirection = 'right';
+                        }
+                    }
+                }
+                setTimeout(scroll, 50); // Интервал скролла (50 миллисекунд в данном случае)
+            }
+
+// Запуск скролла
+            scroll();
+
+// Остановка скролла по касанию
+            container.addEventListener('touchstart', function () {
+                isScrolling = false;
+            });
+        }
+    }
+
     headerStyle();
 
     // dropdown menu
@@ -46,7 +83,6 @@
 
     //Submenu Dropdown Toggle
     if($('.main-header .navigation li.dropdown ul').length){
-        $('.main-header .navigation li.dropdown').append('<div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>');
 
         //Dropdown Button
         $('.main-header .navigation li.dropdown .dropdown-btn').on('click', function() {
@@ -591,3 +627,11 @@
 
 
 })(window.jQuery);
+
+document.querySelector('.mobile-toggle').addEventListener('click', function () {
+   document.body.classList.toggle('mobile-menu-show');
+});
+
+document.querySelector('.mobile-menu-overlay').addEventListener('click', function () {
+    document.body.classList.remove('mobile-menu-show');
+})

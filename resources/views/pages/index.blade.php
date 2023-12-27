@@ -9,7 +9,7 @@
                     <div class="slider-caption">
                         <div class="container">
                             <div class="row">
-                                <div class="col-12 col-md-8">
+                                <div class="col-12 col-lg-8">
                                     <h1>Добро пожаловать <br> в Helios Soft</h1>
                                     <h5 class="text-white">Казахстанскую компанию в сфере информационных
                                         технологий.</h5>
@@ -27,7 +27,7 @@
                     <div class="slider-caption">
                         <div class="container">
                             <div class="row">
-                                <div class="col-12 col-md-8">
+                                <div class="col-12 col-lg-8">
                                     <h1>Просто. Быстро. Надежно.</h1>
                                     <h5 class="text-white">ИС "Favorit" обеспечивает удобство, скорость и надежность в
                                         учете и анализе деятельности вашей компании.</h5>
@@ -159,7 +159,7 @@
             <div class="sec-title light centered">
                 <h1>Большие возможности</h1>
                 <div class="text mt-25 mb-30">Наши филиалы в 6 городах по Казахстану</div>
-                <div class="text-center">
+                <div class="text-center map-container">
                     <div class="map-block">
                         <span class="map-pulse astana">
                             <span class="map-pulse-text">Астана</span>
@@ -199,7 +199,7 @@
                                 <div class="outer-box">
                                     <div class="service-block-two">
                                         <div class="inner-box">
-                                            <div class="icon-box"><span class="icon flaticon-rich"></span></div>
+                                            <div class="icon-box"><span class="icon flaticon-user"></span></div>
                                             <h4><a href="#">Более 110 сотрудников</a></h4>
                                             <div class="service-text">Наша команда насчитывает более 110
                                                 высококвалифицированных сотрудников. Мы гордимся нашим коллективом,
@@ -210,7 +210,7 @@
                                     </div>
                                     <div class="service-block-two">
                                         <div class="inner-box">
-                                            <div class="icon-box"><span class="icon flaticon-diamond-1"></span></div>
+                                            <div class="icon-box"><span class="icon flaticon-profile"></span></div>
                                             <h4><a href="#">Более 4500 обслуживаемых пользователей</a></h4>
                                             <div class="service-text">Наша цель - обеспечить им
                                                 высококачественные информационные решения, помогающие им достигать своих
@@ -221,9 +221,9 @@
                                     </div>
                                     <div class="service-block-two">
                                         <div class="inner-box">
-                                            <div class="icon-box"><span class="icon flaticon-user"></span></div>
+                                            <div class="icon-box"><span class="icon flaticon-cup-1"></span></div>
                                             <h4><a href="#">Более 2000 организаций</a></h4>
-                                            <div class="service-text">А это - образовательные учреждения в облаке ис
+                                            <div class="service-text">А это - образовательные учреждения в облаке ИС
                                                 «фаворит», организации КТЖ, частные организации, комитет транспорта и
                                                 территории
                                             </div>

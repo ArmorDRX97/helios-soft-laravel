@@ -8,8 +8,8 @@
     <!-- Stylesheets -->
     <link href="front/css/bootstrap.css" rel="stylesheet">
     <link href="front/css/style.css" rel="stylesheet">
-    <link href="front/css/responsive.css" rel="stylesheet">
     <link href="front/css/custom.css" rel="stylesheet">
+    <link href="front/css/responsive.css" rel="stylesheet">
     <link href="front/css/custom2.css" rel="stylesheet">
     <title>Helios Soft - казахстанская IT компания</title>
 </head>
@@ -39,7 +39,8 @@
                             <nav class="main-menu navbar-expand-lg">
                                 <div class="navbar-header">
                                     <!-- Toggle Button -->
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                            data-target=".navbar-collapse">
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
@@ -54,11 +55,18 @@
                                         <li class="dropdown"><a href="#">Продукты</a>
                                             <ul style="display: none;">
                                                 <li><a href="/favorit">ИС "Favorit"</a></li>
-                                                <li><a href="/calculator">Зарплатный калькулятор</a></li>
+                                                <li><a href="/calculator">Калькулятор</a></li>
                                             </ul>
                                             <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                         </li>
-                                        <li><a href="/services">Услуги</a></li>
+
+                                        <li class="dropdown"><a href="#">Услуги</a>
+                                            <ul style="display: none;">
+                                                <li><a href="/service-favorit">Система "Favorit"</a></li>
+                                                <li><a href="/service-cloud">Облако</a></li>
+                                            </ul>
+                                            <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
+                                        </li>
                                         <li class="dropdown"><a href="#">Клиенты</a>
                                             <ul style="display: none;">
                                                 <li><a href="/mails">Письма</a></li>
@@ -66,7 +74,7 @@
                                             </ul>
                                             <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                         </li>
-{{--                                        <li><a href="/news">Новости</a></li>--}}
+                                        {{--                                        <li><a href="/news">Новости</a></li>--}}
                                         <li><a href="/contact">Контакты</a></li>
                                     </ul>
                                 </div>
@@ -80,32 +88,46 @@
         </div>
         <!--End Header Upper-->
         <div class="sticky-header">
+            <div class="mobile-menu-overlay"></div>
+
             <div class="container clearfix">
                 <div class="logo float-left">
-                    <a href="/" class="img-responsive"><img src="front/images/logo.png" alt="logo" title="logo" width="77px"></a>
+                    <a href="/" class="img-responsive"><img src="front/images/logo.png" alt="logo" title="logo"
+                                                            width="77px"></a>
                 </div>
-                <div class="right-col float-right">
+                <button type="button" class="navbar-toggle mobile-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="right-col float-right mobile-style">
                     <nav class="main-menu navbar-expand-lg">
-                        <div class="navbar-collapse collapse clearfix">
+                        <div class="navbar-collapse clearfix">
                             <ul class="navigation clearfix">
                                 <li><a href="/">Главная</a></li>
                                 <li><a href="/about">О компании</a></li>
                                 <li class="dropdown"><a href="#">Продукты</a>
                                     <ul style="display: none;">
-                                        <li><a href="/favorit">ИС "Favorit"</a></li>
-                                        <li><a href="/calculator">Зарплатный калькулятор</a></li>
+                                        <li><a href="/favorit">ИС "Favorit" <i class="fa fa-angle-left"></i></a></li>
+                                        <li><a href="/calculator">Калькулятор <i class="fa fa-angle-left"></i></a></li>
                                     </ul>
                                     <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                 </li>
-                                <li><a href="/services">Услуги</a></li>
+                                <li class="dropdown"><a href="#">Услуги</a>
+                                    <ul style="display: none;">
+                                        <li><a href="/service-favorit">Система "Favorit" <i class="fa fa-angle-left"></i></a></li>
+                                        <li><a href="/service-cloud">Облако <i class="fa fa-angle-left"></i></a></li>
+                                    </ul>
+                                    <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
+                                </li>
                                 <li class="dropdown"><a href="#">Клиенты</a>
                                     <ul style="display: none;">
-                                        <li><a href="/mails">Письма</a></li>
-                                        <li><a href="/certificates">Сертификаты</a></li>
+                                        <li><a href="/mails">Письма <i class="fa fa-angle-left"></i></a></li>
+                                        <li><a href="/certificates">Сертификаты <i class="fa fa-angle-left"></i></a></li>
                                     </ul>
                                     <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                 </li>
-{{--                                <li><a href="/news">Новости</a></li>--}}
+                                {{--                                <li><a href="/news">Новости</a></li>--}}
                                 <li><a href="/contact">Контакты</a></li>
                             </ul>
                         </div>
@@ -125,78 +147,44 @@
             <div class="widgets-section">
                 <div class="row clearfix">
                     <!--Big Column-->
-                    <div class="big-column col-lg-6">
-                        <div class="row clearfix">
-
-                            <!--Footer Column-->
-                            <div class="footer-column col-lg-7 col-md-7">
-                                <div class="footer-widget about-widget">
-                                    <div class="footer-logo">
-                                        <figure>
-                                            <a href="/"><img src="front/images/logo-white.png" alt="logo" title="logo" width="160px"></a>
-                                        </figure>
-                                    </div>
-                                    <div class="widget-content">
-                                        <ul class="social-icon-three">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                    <div class="big-column footer-column col-lg-4">
+                        <div class="footer-widget about-widget">
+                            <div class="footer-logo">
+                                <figure>
+                                    <a href="/"><img src="front/images/logo-white.png" alt="logo" title="logo"
+                                                     width="160px"></a>
+                                </figure>
                             </div>
-
-                            <!--Footer Column-->
-                            <div class="footer-column col-lg-5 col-md-5">
-                                <div class="footer-widget services-widget">
-                                    <h2 class="widget-title">services</h2>
-                                    <div class="widget-content">
-                                        <ul class="list">
-                                            <li><a href="#">Company History</a></li>
-                                            <li><a href="#">About Us</a></li>
-                                            <li><a href="#">Contact Us</a></li>
-                                            <li><a href="#">Services</a></li>
-                                            <li><a href="#">Privacy Policy</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                            <div class="widget-content">
+                                <div class="text">В 2022 году ИС "Favorit" получила Индустриальный сертификат и подтвердила соответствие продукта высокому качеству и надежности!</div>
                             </div>
                         </div>
                     </div>
 
-                    <!--Big Column-->
-                    <div class="big-column col-lg-6">
-                        <div class="row clearfix">
-
-                            <!--Footer Column-->
-                            <div class="footer-column col-lg-5 col-md-5">
-                                <div class="footer-widget services-widget">
-                                    <h2 class="widget-title">Quick Link</h2>
-                                    <div class="widget-content">
-                                        <ul class="list">
-                                            <li><a href="#">Company History</a></li>
-                                            <li><a href="#">About Us</a></li>
-                                            <li><a href="#">Contact Us</a></li>
-                                            <li><a href="#">Services</a></li>
-                                            <li><a href="#">Privacy Policy</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                    <div class="big-column footer-column col-lg-4">
+                        <div class="footer-widget services-widget no-arrow">
+                            <h2 class="widget-title">Головной офис</h2>
+                            <div class="widget-content">
+                                <ul class="list">
+                                    <li><i class="fa fa-phone"></i> +7(747) 095 12-42</li>
+                                    <li><i class="fa fa-phone"></i> +7(717) 279 04-49</li>
+                                    <li><i class="flaticon-placeholder"></i> г. Астана, Шоссе Коргалжын, 19,
+                                            Бизнес-центр "Korgalzhyn"</li>
+                                    <li><i class="fa fa-envelope"></i> info@helios-soft.kz</li>
+                                </ul>
                             </div>
+                        </div>
+                    </div>
 
-                            <!--Footer Column-->
-                            <div class="footer-column col-lg-7 col-md-7">
-                                <div class="footer-widget newsletter-widget">
-                                    <h2 class="widget-title">NewsLetter</h2>
-                                    <div class="widget-content">
-                                        <div class="text">Lorem ipsum dolor sit amet, consect</div>
-                                        <form action="#">
-                                            <input type="text" placeholder="Enter Your Email">
-                                            <button type="submit" class="theme-btn btn-style-one">Subscribe</button>
-                                        </form>
-                                    </div>
-                                </div>
+                    <div class="big-column footer-column col-lg-4">
+                        <div class="footer-widget services-widget">
+                            <h2 class="widget-title">Прочее</h2>
+                            <div class="widget-content">
+                                <ul class="list">
+                                    <li><a href="https://help.fvr.kz/">Наш Wiki "Favorit"</a></li>
+                                    <li><a href="https://zp.fvr.kz/">Зарплатный калькулятор</a></li>
+                                    <li><a href="https://www.instagram.com/helios_soft/"><i class="fa fa-instagram"></i> Instagram</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -220,6 +208,7 @@
 </button>
 
 
+
 <script src="front/js/jquery.js"></script>
 <script src="front/js/popover.js"></script>
 <script src="front/js/bootstrap.min.js"></script>
@@ -233,7 +222,6 @@
 
 <!-- Custom script -->
 <script src="front/js/script.js"></script>
-
 
 
 </body>

@@ -209,7 +209,8 @@
                             <div class="text">Оставьте вашу заявку, и мы свяжемся с вами в ближайшее время. Наши
                                 специалисты готовы помочь вам.
                             </div>
-                            <div class="phone-number"><span class="flaticon-headphones"></span>+7 (999) 999 99-99</div>
+                            <div class="phone-number mb-3"><span class="flaticon-headphones"></span>+7(747) 095 12-42</div>
+                            <div class="phone-number"><span class="flaticon-headphones"></span>+7(717) 279 04-49</div>
                             <div class="link-btn"><a href="#" class="theem-btn btn-style-one">Свяжитесь с нами</a></div>
                         </div>
                     </div>
