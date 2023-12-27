@@ -24,6 +24,7 @@
                     <li><a href="#tab-four" class="tab-btn">Кокшетау</a></li>
                     <li><a href="#tab-five" class="tab-btn">Павлодар</a></li>
                     <li><a href="#tab-six" class="tab-btn">Туркестан</a></li>
+                    <li><a href="#tab-seven" class="tab-btn">Талдыкорган</a></li>
                 </ul>
                 <div class="tab-content">
                     <div class="tab-item active-tab" id="tab-one">
@@ -154,6 +155,27 @@
                         </ul>
                         <div id="map6" style="width: 100%; height: 400px;"></div>
                     </div>
+                    <div class="tab-item" id="tab-seven">
+                        <ul class="contact-info-list mb-30">
+                            <li><span class="icon flaticon-signs mr-3"></span>
+                                <p class="m-0">Средиземье, Мордор, <br>Око Саурона 1a</p>
+                            </li>
+                            <li>
+                                <span class="icon flaticon-headphones"></span>
+                                <div class="ml-3">
+                                    <p class="m-0">+7(747) 095 12-35</p>
+                                </div>
+                            </li>
+
+                            <li><span class="icon flaticon-headphones"></span>
+                                <div class="ml-3">
+                                    <p class="m-0">Изенгард: +7(000) 000 00-00</p>
+                                    <p class="m-0">Минас тирит: +7(000) 000 00-00</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div id="map7" style="width: 100%; height: 400px;"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -251,6 +273,11 @@
 
                     DG.map('map6', {
                         center: [43.30206, 68.272081],
+                        zoom: 17
+                    }),
+
+                    DG.map('map7', {
+                        center: [55.113766, 73.581653],
                         zoom: 17
                     }),
                 );

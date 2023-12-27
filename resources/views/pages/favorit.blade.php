@@ -427,95 +427,177 @@
     </section>
 
 
-    <section class="blog-section sp-two">
+    <section class="parallax-section sp-two favorit-corruption-section" style="background-image:url(front/images/main-slider/image-17.jpg);">
         <div class="container">
-            <div class="sec-title centered style-two">
-                <div class="big-title">Нет коррупции</div>
+            <div class="sec-title centered light">
                 <h1>Безопасно и надежно</h1>
                 <p class="subtitle">Снижение коррупционных рисков за счет цифровизации учетных процессов и системы
                     внутренних контролей в ИС фаворитк. <br>Инструменты в ИС Фаворит, нивелирующие коррупционные риски в
                     учете объектов
                     образования.</p>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 news-block-two">
-                    <div class="inner-box hvr-float-shadow">
-                        <div class="lower-content">
-                            <h6><b>Жесткое разделение функций делопроизводителя, завуча и бухгалтера-расчетчика на
-                                    уровне ролей системы</b></h6>
-                            <hr>
-                            <div class="text">Исключение феномена «абсолютной» самостоятельности бухгалтера при расчете
-                                и выплате зарплаты
+
+            <div class="owl-carousel-favorit-corruption owl-carousel owl-theme">
+                <div class="item">
+                    <div class="row align-items-md-center">
+                        <div class="col-12 col-lg-7">
+                            <div class="favorit-corruption-card">
+                                <h6>Жесткое разделение функций делопроизводителя, завуча и бухгалтера-расчетчика на
+                                        уровне ролей системы</h6>
+                                <div class="text">Исключение феномена «абсолютной» самостоятельности бухгалтера при расчете
+                                    и выплате зарплаты
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="inner-box hvr-float-shadow">
-                        <div class="lower-content">
-                            <h6><b>Автоматизирован процесс формирования и утверждения бюджетных заявок на уровне
-                                    Управления образования</b></h6>
-                            <hr>
-                            <div class="text">Реализованы все бюджетные процессы (бюджетная заявка, передвижки,
-                                финансирование) с контролями сроков и лимитов, с обязательным приложением подтверждающих
-                                документов (коммерческие предложения, обоснования, письма)
-                            </div>
+                        <div class="col-12 col-lg-5">
+                            <img src="front/images/favorit/image32.png" class="fvr-cor-img" alt="image">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 news-block-two">
-                    <div class="inner-box hvr-float-shadow">
-                        <div class="lower-content">
-                            <h6><b>Прозрачный учет от консолидированной отчетности до первичного документа в отдельной организации образования
-                                </b></h6>
-                            <hr>
-                            <div class="text">Благодаря единой системе учета для всех организаций и оцифровке полного цикла первичного учета, возможно проводить анализ и аудит деятельности всех организаций образования в короткие сроки.
+                <div class="item">
+                    <div class="row align-items-md-center">
+                        <div class="col-12 col-lg-7">
+                            <div class="favorit-corruption-card">
+                                <h6>Прозрачный учет от консолидированной отчетности до первичного документа в отдельной организации образования
+                                </h6>
+                                <div class="text">Благодаря единой системе учета для всех организаций и оцифровке полного цикла первичного учета, возможно проводить анализ и аудит деятельности всех организаций образования в короткие сроки.
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="inner-box hvr-float-shadow">
-                        <div class="lower-content">
-                            <h6><b>Контроль начисления зарплаты
-                                </b></h6>
-                            <hr>
-                            <div class="text">В системе реализован контроль начисления заработной платы однократно в месяц с учетом имеющихся в системе норм (тариф, нагрузка, лимиты часов)
-                            </div>
-                        </div>
-                    </div>
-                    <div class="inner-box hvr-float-shadow">
-                        <div class="lower-content">
-                            <h6><b>Контроль выплаты авансов
-                                </b></h6>
-                            <hr>
-                            <div class="text">В системе реализована возможность ограничивать размер выплаты аванса в зависимости от должностного оклада
-                            </div>
+                        <div class="col-12 col-lg-5">
+                            <img src="front/images/favorit/image38.png" class="fvr-cor-img" alt="image">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 news-block-two">
-                    <div class="inner-box hvr-float-shadow">
-                        <div class="lower-content">
-                            <h6><b>Проверка сертификатов о присвоении категорий преподавателей
-                                </b></h6>
-                            <hr>
-                            <div class="text">За счет интеграции с Национальным центром тестирования в системе есть возможность проверять подлинность сертификатов при внесении соответствующих приказов
+                <div class="item">
+                    <div class="row align-items-md-center">
+                        <div class="col-12 col-lg-7">
+                            <div class="favorit-corruption-card">
+                                <h6>Проверка сертификатов о присвоении категорий преподавателей</h6>
+                                <div class="text">За счет интеграции с Национальным центром тестирования в системе есть возможность проверять подлинность сертификатов при внесении соответствующих приказов</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="inner-box hvr-float-shadow">
-                        <div class="lower-content">
-                            <h6><b>Сверка ИИН и ФИО сотрудника (в реализации)
-                                </b></h6>
-                            <hr>
-                            <div class="text">За счет интеграции с государственной системой физических лиц будет реализована возможность сверки ИИН и ФИО сотрудника/ребенка для недопущения искажений в учете
-                            </div>
+                        <div class="col-12 col-lg-5">
+                            <img src="front/images/favorit/image36.png" class="fvr-cor-img" alt="image">
                         </div>
                     </div>
-                    <div class="inner-box hvr-float-shadow">
-                        <div class="lower-content">
-                            <h6><b>Интеграция с порталом государственных закупок в части загрузки планов закупок, договоров и спецификаций, актов выполненных работ
-                                </b></h6>
-                            <hr>
-                            <div class="text">Есть возможность оперативного анализа по освоению средств в разрезе ТРУ (товаров, работ, услуг).
+                </div>
+                <div class="item">
+                    <div class="row align-items-md-center">
+                        <div class="col-12 col-lg-7">
+                            <div class="favorit-corruption-card">
+                                <h6>Автоматизирован процесс формирования и утверждения бюджетных заявок на уровне Управления образования</h6>
+                                <div class="text">Реализованы все бюджетные процессы (бюджетная заявка, передвижки, финансирование) с контролями сроков и лимитов, с обязательным приложением подтверждающих документов (коммерческие предложения, обоснования, письма)</div>
                             </div>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <img src="front/images/favorit/image31.png" class="fvr-cor-img" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row align-items-md-center">
+                        <div class="col-12 col-lg-7">
+                            <div class="favorit-corruption-card">
+                                <h6>Контроль начисления зарплаты
+                                </h6>
+                                <div class="text">В системе реализован контроль начисления заработной платы однократно в месяц с учетом имеющихся в системе норм (тариф, нагрузка, лимиты часов)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <img src="front/images/favorit/image34.png" class="fvr-cor-img" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row align-items-md-center">
+                        <div class="col-12 col-lg-7">
+                            <div class="favorit-corruption-card">
+                                <h6>Сверка ИИН и ФИО сотрудника (в реализации)
+                                </h6>
+                                <div class="text">За счет интеграции с государственной системой физических лиц будет реализована возможность сверки ИИН и ФИО сотрудника/ребенка для недопущения искажений в учете
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <img src="front/images/favorit/image37.png" class="fvr-cor-img" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row align-items-md-center">
+                        <div class="col-12 col-lg-7">
+                            <div class="favorit-corruption-card">
+                                <h6>Контроль выплаты авансов
+                                </h6>
+                                <div class="text">В системе реализована возможность ограничивать размер выплаты аванса в зависимости от должностного оклада
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <img src="front/images/favorit/image35.png" class="fvr-cor-img" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row align-items-md-center">
+                        <div class="col-12 col-lg-7">
+                            <div class="favorit-corruption-card">
+                                <h6>Интеграция с порталом государственных закупок в части загрузки планов закупок, договоров и спецификаций, актов выполненных работ
+                                </h6>
+                                <div class="text">Есть возможность оперативного анализа по освоению средств в разрезе ТРУ (товаров, работ, услуг).
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <img src="front/images/favorit/image33.png" class="fvr-cor-img" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row align-items-md-center">
+                        <div class="col-12 col-lg-7">
+                            <div class="favorit-corruption-card">
+                                <h6>Казначейский контроль (5-15)</h6>
+                                <div class="text">Реализована автоматическая проверка ежедневных платежей по форме 5-15, через загрузку выписок казначейства и сверок проведенных в системе платежей.
+                                    <br><br>
+                                    Наличие расхождений не дает возможности пользователю производить дальнейшую работу в системе.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <img src="front/images/favorit/image39.png" class="fvr-cor-img" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row align-items-md-center">
+                        <div class="col-12 col-lg-7">
+                            <div class="favorit-corruption-card">
+                                <h6>Контроль списков по зарплате (5-15 А)
+                                </h6>
+                                <div class="text">Функционирует возможность ежедневного контроля расхождений списков в Фаворит и отправленных в ИС Казначейство, через загрузку и сверку формы 5-15 А по ФИО, банковскому счету, ИИН, сумме. Такие сверки можно производить как на уровне ГУ, так и отдела/управления образования
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <img src="front/images/favorit/image40.png" class="fvr-cor-img" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row align-items-md-center">
+                        <div class="col-12 col-lg-7">
+                            <div class="favorit-corruption-card">
+                                <h6>Контроль учета фондов
+                                </h6>
+                                <div class="text">Реализован механизм автоматического контроля исполнения бюджета за счет сверки данных Казначейства (4-20, 3-04) с данными учета в системе Фаворит. Наличие расхождений не дает возможности пользователю производить дальнейшую работу в системе.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <img src="front/images/favorit/image41.png" class="fvr-cor-img" alt="image">
                         </div>
                     </div>
                 </div>

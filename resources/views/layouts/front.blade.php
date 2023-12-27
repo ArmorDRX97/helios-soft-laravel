@@ -1,3 +1,8 @@
+@php
+    $version = 12;
+@endphp
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,9 +13,9 @@
     <!-- Stylesheets -->
     <link href="front/css/bootstrap.css" rel="stylesheet">
     <link href="front/css/style.css" rel="stylesheet">
-    <link href="front/css/custom.css" rel="stylesheet">
+    <link href="front/css/custom.css?v{{$version}}" rel="stylesheet">
     <link href="front/css/responsive.css" rel="stylesheet">
-    <link href="front/css/custom2.css" rel="stylesheet">
+    <link href="front/css/custom2.css?v{{$version}}" rel="stylesheet">
     <title>Helios Soft - казахстанская IT компания</title>
 </head>
 <body>
@@ -63,7 +68,7 @@
                                         <li class="dropdown"><a href="#">Услуги</a>
                                             <ul style="display: none;">
                                                 <li><a href="/service-favorit">Система "Favorit"</a></li>
-                                                <li><a href="/service-cloud">Облако</a></li>
+                                                <li><a href="/service-cloud">Облако "Favorit"</a></li>
                                             </ul>
                                             <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                         </li>
@@ -116,7 +121,7 @@
                                 <li class="dropdown"><a href="#">Услуги</a>
                                     <ul style="display: none;">
                                         <li><a href="/service-favorit">Система "Favorit" <i class="fa fa-angle-left"></i></a></li>
-                                        <li><a href="/service-cloud">Облако <i class="fa fa-angle-left"></i></a></li>
+                                        <li><a href="/service-cloud">Облако "Favorit"<i class="fa fa-angle-left"></i></a></li>
                                     </ul>
                                     <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                 </li>
@@ -166,8 +171,7 @@
                             <h2 class="widget-title">Головной офис</h2>
                             <div class="widget-content">
                                 <ul class="list">
-                                    <li><i class="fa fa-phone"></i> +7(747) 095 12-42</li>
-                                    <li><i class="fa fa-phone"></i> +7(717) 279 04-49</li>
+                                    <li><i class="fa fa-phone"></i> +7(777) 777 77-77</li>
                                     <li><i class="flaticon-placeholder"></i> г. Астана, Шоссе Коргалжын, 19,
                                             Бизнес-центр "Korgalzhyn"</li>
                                     <li><i class="fa fa-envelope"></i> info@helios-soft.kz</li>
@@ -207,8 +211,6 @@
     <span class="fa fa-angle-up"></span>
 </button>
 
-
-
 <script src="front/js/jquery.js"></script>
 <script src="front/js/popover.js"></script>
 <script src="front/js/bootstrap.min.js"></script>
@@ -219,11 +221,7 @@
 <script src="front/js/isotope.js"></script>
 <script src="front/js/appear.js"></script>
 <script src="front/js/jquery.fancybox.js"></script>
-
-<!-- Custom script -->
-<script src="front/js/script.js"></script>
-
-
+<script src="front/js/script.js?v{{$version}}"></script>
 </body>
 </html>
 

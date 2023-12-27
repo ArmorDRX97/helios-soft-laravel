@@ -87,6 +87,11 @@
     right: 540px;
 }
 
+.map-block .talk{
+    bottom: 185px;
+    right: 270px;
+}
+
 .map-pulse {
     position: absolute;
 }
@@ -141,6 +146,59 @@
     color: #f79210;
 }
 
+.favorit-corruption-section .owl-dots{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.favorit-corruption-section .favorit-corruption-card h6{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.favorit-corruption-section .favorit-corruption-card .text{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.favorit-corruption-section .fvr-cor-img{
+    height: 300px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.favorit-corruption-section .owl-dots .owl-dot span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #f79210;
+    margin: 0 6px;
+}
+
+.main-slider2 .slider-wrapper .image{
+    height: 800px;
+    overflow: hidden;
+}
+
+.main-slider2 .slider-wrapper .image img{
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.favorit-corruption-section .sec-title .subtitle{
+    color: #fff;
+}
+
+.favorit-corruption-section .owl-dots .owl-dot.active span {
+    background-color: #f79210;
+}
+
 .product-main.service-cloud .container h1{
     font-size: 42px;
 }
@@ -154,6 +212,27 @@
 }
 
 @media only screen and (max-width: 991px) {
+    .favorit-corruption-section .favorit-corruption-card{
+        text-align: center;
+    }
+
+    .favorit-corruption-section .owl-dots{
+        justify-content: center;
+    }
+
+    .favorit-corruption-section .favorit-corruption-card h6{
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .favorit-corruption-section .favorit-corruption-card .text{
+        color: #fff;
+        font-size: 16px;
+        margin-top: 10px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+
     .tab-box-contacts .tab-list li{
         margin-bottom: 10px;
     }

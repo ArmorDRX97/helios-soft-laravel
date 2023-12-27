@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <ul class="main-slider-carousel owl-carousel owl-theme slide-nav">
                 <li class="slider-wrapper">
-                    <div class="image"><img src="front/images/main-slider/image-16.jpg" alt=""></div>
+                    <div class="image"><img src="front/images/main-slider/image-21.jpg" alt=""></div>
                     <div class="slider-caption">
                         <div class="container">
                             <div class="row">
@@ -44,6 +44,8 @@
         </div>
     </section>
 
+
+    <!--
     <section class="blog-section sp-two">
         <div class="container">
             <div class="sec-title centered style-two">
@@ -51,7 +53,6 @@
                 <h1>Последние новости</h1>
             </div>
             <div class="row">
-                <!-- news block two -->
                 <div class="col-lg-4 col-md-6 news-block-two">
                     <div class="inner-box hvr-float-shadow">
                         <div class="lower-content">
@@ -100,10 +101,11 @@
                         </div>
                     </div>
                 </div>
-                <!-- end -->
             </div>
         </div>
     </section>
+
+    -->
 
     <section class="what-we-do sp-two">
         <div class="container">
@@ -128,7 +130,7 @@
                             соответствуют современным требованиям и обеспечивают высший уровень эффективности в
                             управлении образовательными учреждениями.</p>
                     </div>
-                    <div class="link-btn mb-30 mt-40"><a href="#" class="theme-btn btn-style-one">Подробнее</a></div>
+                    <div class="link-btn mb-30 mt-40"><a href="/favorit" class="theme-btn btn-style-one">Подробнее</a></div>
                 </div>
                 <div class="col-lg-6">
                     <div class="stacked-image-carousel">
@@ -158,7 +160,7 @@
         <div class="container">
             <div class="sec-title light centered">
                 <h1>Большие возможности</h1>
-                <div class="text mt-25 mb-30">Наши филиалы в 6 городах по Казахстану</div>
+                <div class="text mt-25 mb-30">Наши филиалы в 6 регионах по Казахстану</div>
                 <div class="text-center map-container">
                     <div class="map-block">
                         <span class="map-pulse astana">
@@ -178,6 +180,9 @@
                         </span>
                         <span class="map-pulse turk">
                             <span class="map-pulse-text">Туркестан</span>
+                        </span>
+                        <span class="map-pulse talk">
+                            <span class="map-pulse-text">Талдыкорган</span>
                         </span>
                         <img src="front/images/map.png" alt="map" class="img-fluid">
                     </div>
@@ -200,7 +205,9 @@
                                     <div class="service-block-two">
                                         <div class="inner-box">
                                             <div class="icon-box"><span class="icon flaticon-user"></span></div>
-                                            <h4><a href="#">Более 110 сотрудников</a></h4>
+                                            <h4><a href="#">Более <span class="count-outer count-box">
+                                                        <span data-stop="110" class="count-text c-main" data-speed="3000"></span>
+                                                    </span> сотрудников</a></h4>
                                             <div class="service-text">Наша команда насчитывает более 110
                                                 высококвалифицированных сотрудников. Мы гордимся нашим коллективом,
                                                 который предан работе и всегда готов предоставить вам качетсвенные
@@ -211,7 +218,11 @@
                                     <div class="service-block-two">
                                         <div class="inner-box">
                                             <div class="icon-box"><span class="icon flaticon-profile"></span></div>
-                                            <h4><a href="#">Более 4500 обслуживаемых пользователей</a></h4>
+                                            <h4><a href="#">Более
+                                                    <span class="count-outer count-box">
+                                                        <span data-stop="4500" class="count-text c-main" data-speed="3000"></span>
+                                                    </span>
+                                                    обслуживаемых пользователей</a></h4>
                                             <div class="service-text">Наша цель - обеспечить им
                                                 высококачественные информационные решения, помогающие им достигать своих
                                                 целей и задач.
@@ -222,7 +233,11 @@
                                     <div class="service-block-two">
                                         <div class="inner-box">
                                             <div class="icon-box"><span class="icon flaticon-cup-1"></span></div>
-                                            <h4><a href="#">Более 2000 организаций</a></h4>
+                                            <h4><a href="#">Более
+                                                    <span class="count-outer count-box">
+                                                        <span data-stop="2000" class="count-text c-main" data-speed="3000"></span>
+                                                    </span>
+                                                    организаций</a></h4>
                                             <div class="service-text">А это - образовательные учреждения в облаке ИС
                                                 «фаворит», организации КТЖ, частные организации, комитет транспорта и
                                                 территории

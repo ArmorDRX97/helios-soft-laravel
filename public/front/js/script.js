@@ -176,9 +176,8 @@
     }
 
     //Fact Counter + Text Count
-    if($('.count-box').length){
-        $('.count-box').appear(function(){
-
+    if ($('.count-box').length) {
+        $('.count-box').appear(function() {
             var $t = $(this),
                 n = $t.find(".count-text").attr("data-stop"),
                 r = parseInt($t.find(".count-text").attr("data-speed"), 10);
@@ -193,15 +192,14 @@
                     duration: r,
                     easing: "linear",
                     step: function() {
-                        $t.find(".count-text").text(Math.floor(this.countNum));
+                        $t.find(".count-text").text(Math.floor(this.countNum).toLocaleString()); // Форматирование числа с разделением разрядов
                     },
                     complete: function() {
-                        $t.find(".count-text").text(this.countNum);
+                        $t.find(".count-text").text(this.countNum.toLocaleString()); // Форматирование окончательного числа с разделением разрядов
                     }
                 });
             }
-
-        },{accY: 0});
+        }, { accY: 0 });
     }
 
 
@@ -219,6 +217,17 @@
             $(target).addClass('active-tab');
         });
     }
+
+    $('.owl-carousel-favorit-corruption').owlCarousel({
+        loop:true,
+        margin:50,
+        nav:false,
+        items:1,
+        active: true,
+        smartSpeed: 1000,
+        autoplay: 7000,
+        navText: [ '<span class="flaticon-left-arrow-1"></span>', '<span class="flaticon-right-arrow"></span>' ],
+    })
 
 
     //Main Slider Carousel
@@ -556,7 +565,6 @@
             }
         });
     }
-
 
     // Scroll to a Specific Div
     if($('.scroll-to-target').length){

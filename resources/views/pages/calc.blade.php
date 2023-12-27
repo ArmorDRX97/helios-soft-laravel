@@ -63,15 +63,13 @@
                                 <div class="icon-box">
                                     <i class="flaticon-computer-2"></i>
                                 </div>
-                                <div class="count-outer count-box counted">
-                                    <span class="count-text" data-speed="3000" data-stop="350">8194398</span>
-
+                                <div class="count-outer count-box">
+                                    <span data-stop="8281425" class="count-text" data-speed="3000"></span>
                                     <p>Всего расчетов</p>
                                 </div>
                             </div>
                         </div>
                     </article>
-
                     <!--Column-->
                     <article class="column counter-column col-lg-4 wow fadeIn animated" data-wow-duration="300ms"
                              style="visibility: visible; animation-duration: 300ms; animation-name: fadeIn;">
@@ -80,8 +78,8 @@
                                 <div class="icon-box">
                                     <i class="flaticon-project"></i>
                                 </div>
-                                <div class="count-outer count-box counted">
-                                    <span class="count-text" data-speed="3000" data-stop="1250">91157</span>
+                                <div class="count-outer count-box">
+                                    <span data-stop="51524" class="count-text" data-speed="3000"></span>
                                     <p>За последние 30 дней</p>
                                 </div>
                             </div>
@@ -96,8 +94,8 @@
                                 <div class="icon-box">
                                     <i class="flaticon-group"></i>
                                 </div>
-                                <div class="count-outer count-box counted">
-                                    <span class="count-text" data-speed="3000" data-stop="2050">1787</span>
+                                <div class="count-outer count-box">
+                                    <span data-stop="458" class="count-text" data-speed="3000"></span>
                                     <p>Сегодня</p>
                                 </div>
                             </div>
@@ -209,8 +207,7 @@
                             <div class="text">Оставьте вашу заявку, и мы свяжемся с вами в ближайшее время. Наши
                                 специалисты готовы помочь вам.
                             </div>
-                            <div class="phone-number mb-3"><span class="flaticon-headphones"></span>+7(747) 095 12-42</div>
-                            <div class="phone-number"><span class="flaticon-headphones"></span>+7(717) 279 04-49</div>
+                            <div class="phone-number mb-3"><span class="flaticon-headphones"></span>+7(777) 777 77-77</div>
                             <div class="link-btn"><a href="#" class="theem-btn btn-style-one">Свяжитесь с нами</a></div>
                         </div>
                     </div>

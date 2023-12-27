@@ -22,14 +22,13 @@
                         <div class="inner-box">
                             <div class="sec-title deep">
                                 <div class="big-title">>О Нас</div>
-                                <h1>Наша миссия</h1>
+                                <h1>Удовлетворенность клиента - миссия нашей компании</h1>
                             </div>
                             <div class="service-text">
-                                <p>Наша цель - воплощать инновации в каждом продукте, который мы создаем. Мы стремимся к
-                                    постоянному совершенствованию, разрабатывая решения, которые не только упрощают
-                                    жизнь, но и преображают бизнес. Мы нацелены на то, чтобы быть катализатором
-                                    прогресса, обеспечивая надежные и интуитивно понятные технологии для всех наших
-                                    пользователей.</p>
+                                <p>Мы нацелены на создание долгосрочных отношений, основанных на взаимном доверии и
+                                    понимании. Наше стремление не просто поддерживать, а активно развивать
+                                    сотрудничество с клиентами, помогает им достигать высоких результатов в их деловой
+                                    деятельности.</p>
                             </div>
                         </div>
                     </div>
@@ -47,10 +46,10 @@
             </div>
             <div class="text-center mb-80">
                 <div class="text mb-40">
-                    Наша компания – ведущий разработчик инновационных решений для образовательных учреждений и
-                    предприятий малого и среднего бизнеса. Мы специализируемся на программном обеспечении, упрощающем
-                    бухгалтерию, налоговый учет, управление кадровым составом, предоставлении сервисов, таких как
-                    зарплатный калькулятор и многое другое. Мы не только создаем продукты высочайшего качества, но и
+                    Наша компания – единственный разработчик инновационной системы для образовательных учреждений и
+                    предприятий малого и среднего бизнеса. Мы специализируемся на упрощении
+                    бухгалтерского учета, налогового учета, управление кадровым составом, предоставлении сервисов, таких как
+                    зарплатный калькулятор и многое другое. Мы не только создаем продукт высочайшего качества, но и
                     обеспечиваем полный цикл обучения и профессиональной поддержки для наших клиентов.
                 </div>
                 <div class="link-btn"><a href="/contact" class="theme btn-style-one">Связаться с нами</a></div>
@@ -58,7 +57,7 @@
 
             <div class="row">
                 <div class="service-block-six about-page col-lg-4 col-md-6">
-                    <div class="inner-box hvr-bounce-to-bottom">
+                    <a href="/favorit" class="inner-box hvr-bounce-to-bottom">
                         <div class="icon-box">
                             <span class="flaticon-computer-1"></span>
                         </div>
@@ -66,10 +65,10 @@
                         <div class="text">
                             Единая облачная система планирования, учета и анализа
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="service-block-six about-page col-lg-4 col-md-6">
-                    <div class="inner-box hvr-bounce-to-bottom">
+                    <a href="/calculator" class="inner-box hvr-bounce-to-bottom">
                         <div class="icon-box">
                             <span class="fa fa-calculator"></span>
                         </div>
@@ -77,17 +76,17 @@
                         <div class="text">Зарлпатный калькулятор начальных
                             и средних образовательных учреждений
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="service-block-six about-page col-lg-4 col-md-6">
-                    <div class="inner-box hvr-bounce-to-bottom">
+                    <a href="/service-favorit" class="inner-box hvr-bounce-to-bottom">
                         <div class="icon-box">
                             <span class="flaticon-headphones"></span>
                         </div>
                         <h4>Обучение и поддержка</h4>
                         <div class="text">Авторские курсы обучения в системе "Фаворит" и дальнейшее сопровождение
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -102,7 +101,7 @@
 
                         <div class="sec-title style-two deep">
                             <div class="big-title">История компании</div>
-                            <h1>наша история</h1>
+                            <h1>Наша история</h1>
                         </div>
                         <div class="text mb-80">
 
@@ -272,122 +271,75 @@
 
                     </div>
                 </div>
-{{--                <div class="col-lg-4">--}}
-{{--                    <div class="request-callback">--}}
-{{--                        <div class="inner-box">--}}
-{{--                            <h4>Оставьте заявку на обратный звонок</h4>--}}
-{{--                            <div class="text">Оставьте вашу заявку, и мы свяжемся с вами в ближайшее время. Наши--}}
-{{--                                специалисты готовы помочь вам.--}}
-{{--                            </div>--}}
-{{--                            <div class="phone-number"><span class="flaticon-headphones"></span>+7 (999) 999 99-99</div>--}}
-{{--                            <div class="link-btn"><a href="#" class="theem-btn btn-style-one">Свяжитесь с нами</a></div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
+                {{--                <div class="col-lg-4">--}}
+                {{--                    <div class="request-callback">--}}
+                {{--                        <div class="inner-box">--}}
+                {{--                            <h4>Оставьте заявку на обратный звонок</h4>--}}
+                {{--                            <div class="text">Оставьте вашу заявку, и мы свяжемся с вами в ближайшее время. Наши--}}
+                {{--                                специалисты готовы помочь вам.--}}
+                {{--                            </div>--}}
+                {{--                            <div class="phone-number"><span class="flaticon-headphones"></span>+7 (999) 999 99-99</div>--}}
+                {{--                            <div class="link-btn"><a href="#" class="theem-btn btn-style-one">Свяжитесь с нами</a></div>--}}
+                {{--                        </div>--}}
+                {{--                    </div>--}}
+                {{--                </div>--}}
             </div>
         </div>
     </section>
 
 
-    <!--
+
     <section class="our-team sp-two">
         <div class="container">
-            <div class="sec-title style-two deep">
-                <div class="big-title">Сотрудники</div>
-                <h1>Наша команда</h1>
+            <div class="sec-title style-two centered deep">
+                <h1>Руководители компании</h1>
             </div>
             <div class="row">
-                <div class="team-block-two col-lg-6">
+                <div class="team-block-one col-lg-3 col-md-6">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="front/images/team/team1.jpg" alt="team">
-                            <div class="overlay-box">
-                            </div>
+                            <img src="front/images/team/team1.jpg" alt="">
                         </div>
                         <div class="lower-box">
                             <h4><a href="#">Бутумбаев Серик</a></h4>
                             <div class="designation">Директор</div>
-                            <div class="text">Директор и основатель компании "Helios Soft" и еще текст. Lorem ipsum
-                                dolor sit amet, consectetur adipisicing elit. Dolore, quam
-                            </div>
-                            <ul class="social-links clearfix">
-                                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fa fa-vimeo"></span></a></li>
-                                <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="team-block-two col-lg-6">
+                <div class="team-block-one col-lg-3 col-md-6">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="front/images/team/team2.jpg" alt="team">
-                            <div class="overlay-box">
-                            </div>
-                        </div>
-                        <div class="lower-box">
-                            <h4><a href="#">Четтыкбаевна Шолпан</a></h4>
-                            <div class="designation">Заместитель директора по развитию</div>
-                            <div class="text">Заместитель директора по развитию и еще текст. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit. Dolore, quam?
-                            </div>
-                            <ul class="social-links clearfix">
-                                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fa fa-vimeo"></span></a></li>
-                                <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block-two col-lg-6">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="front/images/team/team3.jpg" alt="team">
-                            <div class="overlay-box">
-                            </div>
+                            <img src="front/images/team/team3.jpg" alt="">
                         </div>
                         <div class="lower-box">
                             <h4><a href="#">Андрей Николаевич</a></h4>
                             <div class="designation">Заместитель директора</div>
-                            <div class="text">Заместитель директора и еще текст. Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Dolore, quam?
-                            </div>
-                            <ul class="social-links clearfix">
-                                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fa fa-vimeo"></span></a></li>
-                                <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="team-block-two col-lg-6">
+                <div class="team-block-one col-lg-3 col-md-6">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="front/images/team/team4.jpg" alt="team">
-                            <div class="overlay-box">
-                            </div>
+                            <img src="front/images/team/team2.jpg" alt="">
                         </div>
                         <div class="lower-box">
-                            <h4><a href="#">Lorem ipsum</a></h4>
+                            <h4><a href="#">Четтыкбаевна Шолпан</a></h4>
+                            <div class="designation">Заместитель директора по развитию</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-block-one col-lg-3 col-md-6">
+                    <div class="inner-box">
+                        <div class="image">
+                            <img src="front/images/team/team4.jpg" alt="">
+                        </div>
+                        <div class="lower-box">
+                            <h4><a href="#">Нурпеисов Даурен</a></h4>
                             <div class="designation">Исполнительный директор</div>
-                            <div class="text">Исполнительный директора и еще текст. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit. Dolore, quam?
-                            </div>
-                            <ul class="social-links clearfix">
-                                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fa fa-vimeo"></span></a></li>
-                                <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    -->
 @endsection
