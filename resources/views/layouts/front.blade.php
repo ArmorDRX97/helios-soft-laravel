@@ -1,5 +1,5 @@
 @php
-    $version = 12;
+    $version = 2;
 @endphp
 
 
@@ -79,7 +79,7 @@
                                             </ul>
                                             <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                         </li>
-                                        {{--                                        <li><a href="/news">Новости</a></li>--}}
+                                                                                <li><a href="/news">Новости</a></li>
                                         <li><a href="/contact">Контакты</a></li>
                                     </ul>
                                 </div>
@@ -132,7 +132,7 @@
                                     </ul>
                                     <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                 </li>
-                                {{--                                <li><a href="/news">Новости</a></li>--}}
+                                                                <li><a href="/news">Новости</a></li>
                                 <li><a href="/contact">Контакты</a></li>
                             </ul>
                         </div>
@@ -161,7 +161,7 @@
                                 </figure>
                             </div>
                             <div class="widget-content">
-                                <div class="text">В 2022 году ИС "Favorit" получила Индустриальный сертификат и подтвердила соответствие продукта высокому качеству и надежности!</div>
+                                <div class="text">В 2022 году ИС "Favorit" получил Индустриальный сертификат и подтвердил соответствие продукта высокого качества и надежности!</div>
                             </div>
                         </div>
                     </div>

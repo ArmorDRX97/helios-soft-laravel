@@ -45,7 +45,6 @@
     </section>
 
 
-    <!--
     <section class="blog-section sp-two">
         <div class="container">
             <div class="sec-title centered style-two">
@@ -56,15 +55,18 @@
                 <div class="col-lg-4 col-md-6 news-block-two">
                     <div class="inner-box hvr-float-shadow">
                         <div class="lower-content">
-                            <div class="category"><a href="#">Новость</a></div>
-                            <h4><a href="new.html">Нападение на Казахстан высоких налогов</a></h4>
+                            <div class="new-image">
+                                <img src="front/images/resource/news-2.jpg" alt="image" class="w-100">
+                                <div class="category"><a href="#">Цифровизация</a></div>
+                            </div>
+                            <h4><a href="/new-one">Нападение на Казахстан высоких налогов</a></h4>
                             <ul class="post-meta">
                                 <li><span>2 ноября, 2023</span></li>
                             </ul>
                             <div class="text">В скором времени на Казахстан обрушится шквал из повышения налогов на все
                                 сферы деятельности
                             </div>
-                            <div class="link-btn"><a href="new.html" class="read-more-btn">Читать <span
+                            <div class="link-btn"><a href="/new-one" class="read-more-btn">Читать <span
                                         class="fa fa-long-arrow-right"></span></a></div>
                         </div>
                     </div>
@@ -72,15 +74,18 @@
                 <div class="col-lg-4 col-md-6 news-block-two">
                     <div class="inner-box hvr-float-shadow">
                         <div class="lower-content">
-                            <div class="category"><a href="#">Новость</a></div>
-                            <h4><a href="new.html">Нападение на Казахстан высоких налогов</a></h4>
+                            <div class="new-image">
+                                <img src="front/images/resource/news-2.jpg" alt="image" class="w-100">
+                                <div class="category"><a href="#">Цифровизация</a></div>
+                            </div>
+                            <h4><a href="/new-one">Нападение на Казахстан высоких налогов</a></h4>
                             <ul class="post-meta">
                                 <li><span>2 ноября, 2023</span></li>
                             </ul>
                             <div class="text">В скором времени на Казахстан обрушится шквал из повышения налогов на все
                                 сферы деятельности
                             </div>
-                            <div class="link-btn"><a href="new.html" class="read-more-btn">Читать <span
+                            <div class="link-btn"><a href="/new-one" class="read-more-btn">Читать <span
                                         class="fa fa-long-arrow-right"></span></a></div>
                         </div>
                     </div>
@@ -88,24 +93,27 @@
                 <div class="col-lg-4 col-md-6 news-block-two">
                     <div class="inner-box hvr-float-shadow">
                         <div class="lower-content">
-                            <div class="category"><a href="#">Новость</a></div>
-                            <h4><a href="new.html">Нападение на Казахстан высоких налогов</a></h4>
+                            <div class="new-image">
+                                <img src="front/images/resource/news-2.jpg" alt="image" class="w-100">
+                                <div class="category"><a href="#">Цифровизация</a></div>
+                            </div>
+                            <h4><a href="/new-one">Нападение на Казахстан высоких налогов</a></h4>
                             <ul class="post-meta">
                                 <li><span>2 ноября, 2023</span></li>
                             </ul>
                             <div class="text">В скором времени на Казахстан обрушится шквал из повышения налогов на все
                                 сферы деятельности
                             </div>
-                            <div class="link-btn"><a href="new.html" class="read-more-btn">Читать <span
+                            <div class="link-btn"><a href="/new-one" class="read-more-btn">Читать <span
                                         class="fa fa-long-arrow-right"></span></a></div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="link-btn text-center mb-20 mt-20"><a href="/news" class="theme-btn btn-style-one">Все новости</a></div>
         </div>
     </section>
 
-    -->
 
     <section class="what-we-do sp-two">
         <div class="container">

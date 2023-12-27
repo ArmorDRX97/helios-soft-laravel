@@ -78,6 +78,14 @@ Route::get('/service-cloud', function () {
     return view('pages/service-cloud');
 });
 
+Route::get('/news', function () {
+    return view('pages/news');
+});
+
+Route::get('/new-one', function () {
+    return view('pages/new-one');
+});
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
