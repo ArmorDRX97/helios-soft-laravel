@@ -158,19 +158,12 @@
                     <div class="tab-item" id="tab-seven">
                         <ul class="contact-info-list mb-30">
                             <li><span class="icon flaticon-signs mr-3"></span>
-                                <p class="m-0">Средиземье, Мордор, <br>Око Саурона 1a</p>
+                                <p class="m-0">Проспект Нурсултана Назарбаева, 173в, <br>(Юридический колледж), 3 этаж, Офис 322</p>
                             </li>
                             <li>
                                 <span class="icon flaticon-headphones"></span>
                                 <div class="ml-3">
                                     <p class="m-0">+7(747) 095 12-35</p>
-                                </div>
-                            </li>
-
-                            <li><span class="icon flaticon-headphones"></span>
-                                <div class="ml-3">
-                                    <p class="m-0">Изенгард: +7(000) 000 00-00</p>
-                                    <p class="m-0">Минас тирит: +7(000) 000 00-00</p>
                                 </div>
                             </li>
                         </ul>
@@ -277,7 +270,7 @@
                     }),
 
                     DG.map('map7', {
-                        center: [55.113766, 73.581653],
+                        center: [45.014735, 78.351735],
                         zoom: 17
                     }),
                 );
