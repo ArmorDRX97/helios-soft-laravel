@@ -113,7 +113,7 @@
                 <div class="col-lg-6">
                     <div class="sec-title">
                         <div class="big-title">FAVORIT</div>
-                        <h1>КАЗАХСТАНСКАЯ ИТ СИСТЕМА ERP КЛАССА #1</h1>
+                        <h1>КАЗАХСТАНСКАЯ IT СИСТЕМА ERP КЛАССА #1</h1>
                     </div>
                     <div class="text">
                         <p>облачная информационная система учета и
@@ -127,8 +127,7 @@
                         <p>Мы гордимся тем, что наши решения помогают государственным учебным заведениям сэкономить
                             время и ресурсы, обеспечивая точный учет и улучшение административной работы. Мы стремимся к
                             долгосрочному партнерству с нашими клиентами, предоставляя надежные инструменты, которые
-                            соответствуют современным требованиям и обеспечивают высший уровень эффективности в
-                            управлении образовательными учреждениями.</p>
+                            соответствуют современным требованиям и обеспечивают высший уровень эффективности.</p>
                     </div>
                     <div class="link-btn mb-30 mt-40"><a href="/favorit" class="theme-btn btn-style-one">Подробнее</a></div>
                 </div>
@@ -176,7 +175,7 @@
                               <span class="map-pulse-text">Кокшетау</span>
                         </span>
                         <span class="map-pulse pavl">
-                            <span class="map-pulse-text">Паводар</span>
+                            <span class="map-pulse-text">Павлодар</span>
                         </span>
                         <span class="map-pulse turk">
                             <span class="map-pulse-text">Туркестан</span>
@@ -206,9 +205,9 @@
                                         <div class="inner-box">
                                             <div class="icon-box"><span class="icon flaticon-user"></span></div>
                                             <h4><a href="#">Более <span class="count-outer count-box">
-                                                        <span data-stop="110" class="count-text c-main" data-speed="3000"></span>
+                                                        <span data-stop="111" class="count-text c-main" data-speed="3000"></span>
                                                     </span> сотрудников</a></h4>
-                                            <div class="service-text">Наша команда насчитывает более 110
+                                            <div class="service-text">Наша команда насчитывает более 100
                                                 высококвалифицированных сотрудников. Мы гордимся нашим коллективом,
                                                 который предан работе и всегда готов предоставить вам качетсвенные
                                                 услуги.
@@ -239,7 +238,7 @@
                                                     </span>
                                                     организаций</a></h4>
                                             <div class="service-text">А это - образовательные учреждения в облаке ИС
-                                                «фаворит», организации КТЖ, частные организации, комитет транспорта и
+                                                «Favorit», организации КТЖ, частные организации, комитет транспорта и
                                                 территории
                                             </div>
                                         </div>
