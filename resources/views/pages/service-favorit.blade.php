@@ -5,7 +5,7 @@
     <div class="product-main" style="background-image: url(front/images/services/s-f-bg.jpg);">
         <div class="container">
             <div class="text-center">
-                <h1>Услуги по системе <b class="c-main">Favorit</b></h1>
+                <h1>Техническая поддержка по системе <b class="c-main">Favorit</b></h1>
                 <p>Профессиональное обучение, качественное сопровождение и высокий уровень технической поддержки <b
                         class="c-main">для каждого</b></p>
                 <div class="link-btn">

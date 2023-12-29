@@ -58,6 +58,10 @@ Route::get('/favorit', function () {
     return view('pages/favorit');
 });
 
+Route::get('/favorit-corp', function () {
+    return view('pages/favorit-corp');
+});
+
 Route::get('/contact', function () {
     return view('pages/contact');
 });

@@ -3833,28 +3833,6 @@ img {
     opacity: 1
 }
 
-.main-header .sticky-header .main-menu .navigation > li > ul:before {
-    display: none
-}
-
-.main-header .sticky-header .main-menu .navigation > li > ul {
-    top: 100% !important
-}
-
-.main-menu .navigation > li > ul {
-    position: absolute;
-    left: 0;
-    top: 100%;
-    width: 270px;
-    padding: 20px 0;
-    z-index: 100;
-    display: none;
-    background: #fff;
-    -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
-    -ms-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
-    -o-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05)
-}
 
 .main-menu .navigation > li > ul.from-right {
     left: auto;
@@ -13095,7 +13073,7 @@ img {
     position: absolute;
     left: 0;
     top: 100%;
-    width: 270px;
+    width: 300px;
     padding: 20px 0;
     z-index: 100;
     display: none;

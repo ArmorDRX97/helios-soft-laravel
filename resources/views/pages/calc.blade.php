@@ -7,8 +7,7 @@
             <div class="text-center">
                 <h5>Бесплатный</h5>
                 <h1>Кредитный калькулятор</h1>
-                <p>Самый точный и надежный зарлпатный калькулятор начальных <br>и средних образовательных учреждений <b>любого
-                        уровня</b></p>
+                <p>Самый точный и надежный зарлпатный калькулятор для педагогов по всему Казахстану</p>
                 <div class="link-btn">
                     <a href="https://zp.fvr.kz/" target="_blank" class="theme-btn btn-style-seven">Попробовать <i
                             class="fa fa-arrow-right ml-10"></i></a>
@@ -38,7 +37,7 @@
                     </div>
                     <div class="tab-box mb-30">
                         <div class="text">
-                            <p>Калькулятор предназначен для расчета начисленной заработной платы работников
+                            <p>Калькулятор предназначен для расчета начисленной заработной платы педагогов
                                 общеобразовательных школ и дошкольных учреждений областного, городского (районного)
                                 уровня (подчинения) со всеми возможными вариантами доплаты, учебной нагрузки по
                                 тпрификации и часами замены.</p>
@@ -115,89 +114,7 @@
                         <h1>Вопросы и ответы</h1>
                     </div>
 
-                    <ul class="accordion-box">
-                        <!--Accordion Block-->
-                        <li class="accordion block">
-                            <div class="acc-btn">
-                                <div class="icon-outer">В.</div>
-                                Настолько верны данные после расчетов?
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">Excepteur sint occaecat cupidatat non proident sunt culpa qui
-                                        officia dese runt.mollit anim id est laborum.sed ut perspiciatis unde omnis iste
-                                        natus error rem aperiam eaque ipsa.
-                                    </div>
-                                    <ul class="list-style-six mb-30">
-                                        <li>Convallis ligula ligula gravida tristique.</li>
-                                        <li>Lobortis massa fringilla odio.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!--Accordion Block-->
-                        <li class="accordion block">
-                            <div class="acc-btn active">
-                                <div class="icon-outer">В.</div>
-                                Можно ли использовать расчеты из калькулятора для предъявления?
-                            </div>
-                            <div class="acc-content current">
-                                <div class="content">
-                                    <div class="text">Excepteur sint occaecat cupidatat non proident sunt culpa qui
-                                        officia dese runt.mollit anim id est laborum.sed ut perspiciatis unde omnis iste
-                                        natus error rem aperiam eaque ipsa.
-                                    </div>
-                                    <ul class="list-style-six mb-30">
-                                        <li>Convallis ligula ligula gravida tristique.</li>
-                                        <li>Lobortis massa fringilla odio.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!--Accordion Block-->
-                        <li class="accordion block">
-                            <div class="acc-btn">
-                                <div class="icon-outer">В.</div>
-                                У меня не сошлись цифры с бухгалтерией. Почему?
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">Excepteur sint occaecat cupidatat non proident sunt culpa qui
-                                        officia dese runt.mollit anim id est laborum.sed ut perspiciatis unde omnis iste
-                                        natus error rem aperiam eaque ipsa.
-                                    </div>
-                                    <ul class="list-style-six mb-30">
-                                        <li>Convallis ligula ligula gravida tristique.</li>
-                                        <li>Lobortis massa fringilla odio.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!--Accordion Block-->
-                        <li class="accordion block">
-                            <div class="acc-btn">
-                                <div class="icon-outer">В.</div>
-                                Почему какой-то вопрос и еще вопрос ну и на последок, вопрос?
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">Excepteur sint occaecat cupidatat non proident sunt culpa qui
-                                        officia dese runt.mollit anim id est laborum.sed ut perspiciatis unde omnis iste
-                                        natus error rem aperiam eaque ipsa.
-                                    </div>
-                                    <ul class="list-style-six mb-30">
-                                        <li>Convallis ligula ligula gravida tristique.</li>
-                                        <li>Lobortis massa fringilla odio.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-
-
-                    </ul>
+                    <h1 style="color: red;">Вставить красиво Telegram канал и кнопку на него. Добавить еще текст который в самом чате (в его описании)</h1>
                     <!-- end -->
                 </div>
                 <div class="col-lg-4">
@@ -207,8 +124,7 @@
                             <div class="text">Оставьте вашу заявку, и мы свяжемся с вами в ближайшее время. Наши
                                 специалисты готовы помочь вам.
                             </div>
-                            <div class="phone-number mb-3"><span class="flaticon-headphones"></span>+7(777) 777 77-77</div>
-                            <div class="link-btn"><a href="#" class="theem-btn btn-style-one">Свяжитесь с нами</a></div>
+                            <div class="phone-number mb-3"><span class="flaticon-headphones"></span>+7 (7172) 79 80 30</div>
                         </div>
                     </div>
                 </div>

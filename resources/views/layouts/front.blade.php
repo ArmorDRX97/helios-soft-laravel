@@ -59,7 +59,8 @@
                                         <li><a href="/about">О компании</a></li>
                                         <li class="dropdown"><a href="#">Продукты</a>
                                             <ul style="display: none;">
-                                                <li><a href="/favorit">ИС "Favorit"</a></li>
+                                                <li><a href="/favorit">ИС "Favorit" Education</a></li>
+                                                <li><a href="/favorit-corp">ИС "Favorit" Corp</a></li>
                                                 <li><a href="/calculator">Калькулятор</a></li>
                                             </ul>
                                             <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
@@ -67,8 +68,8 @@
 
                                         <li class="dropdown"><a href="#">Услуги</a>
                                             <ul style="display: none;">
-                                                <li><a href="/service-favorit">Система "Favorit"</a></li>
-                                                <li><a href="/service-cloud">Облако "Favorit"</a></li>
+                                                <li><a href="/service-cloud">Облачный сервис</a></li>
+                                                <li><a href="/service-favorit">Техническая поддержка и обучение</a></li>
                                             </ul>
                                             <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                         </li>
@@ -113,15 +114,16 @@
                                 <li><a href="/about">О компании</a></li>
                                 <li class="dropdown"><a href="#">Продукты</a>
                                     <ul style="display: none;">
-                                        <li><a href="/favorit">ИС "Favorit" <i class="fa fa-angle-left"></i></a></li>
+                                        <li><a href="/favorit">ИС "Favorit" Education<i class="fa fa-angle-left"></i></a></li>
+                                        <li><a href="/favorit-corp">ИС "Favorit" Corp<i class="fa fa-angle-left"></i></a></li>
                                         <li><a href="/calculator">Калькулятор <i class="fa fa-angle-left"></i></a></li>
                                     </ul>
                                     <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                 </li>
                                 <li class="dropdown"><a href="#">Услуги</a>
                                     <ul style="display: none;">
-                                        <li><a href="/service-favorit">Система "Favorit" <i class="fa fa-angle-left"></i></a></li>
-                                        <li><a href="/service-cloud">Облако "Favorit"<i class="fa fa-angle-left"></i></a></li>
+                                        <li><a href="/service-cloud">Облачный сервис <i class="fa fa-angle-left"></i></a></li>
+                                        <li><a href="/service-favorit">Техническая поддержка и обучение <i class="fa fa-angle-left"></i></a></li>
                                     </ul>
                                     <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                 </li>
@@ -161,7 +163,7 @@
                                 </figure>
                             </div>
                             <div class="widget-content">
-                                <div class="text">В 2022 году ИС "Favorit" получил Индустриальный сертификат и подтвердил соответствие продукта высокого качества и надежности!</div>
+                                <div class="text">В 2023 году ИС "Favorit" в очередной раз подтвердил соответствие продукта высокой надежности и безопасности, пройдя сертификацию на информационную безопасность</div>
                             </div>
                         </div>
                     </div>
@@ -171,7 +173,7 @@
                             <h2 class="widget-title">Головной офис</h2>
                             <div class="widget-content">
                                 <ul class="list">
-                                    <li><i class="fa fa-phone"></i> +7(777) 777 77-77</li>
+                                    <li><i class="fa fa-phone"></i> +7 (7172) 79 80 30</li>
                                     <li><i class="flaticon-placeholder"></i> г. Астана, Шоссе Коргалжын, 19,
                                             Бизнес-центр "Korgalzhyn"</li>
                                     <li><i class="fa fa-envelope"></i> info@helios-soft.kz</li>
@@ -188,6 +190,7 @@
                                     <li><a href="https://help.fvr.kz/">Наш Wiki "Favorit"</a></li>
                                     <li><a href="https://zp.fvr.kz/">Зарплатный калькулятор</a></li>
                                     <li><a href="https://www.instagram.com/helios_soft/"><i class="fa fa-instagram"></i> Instagram</a></li>
+                                    <li><a href="https://www.instagram.com/helios_soft/"><i class="fa fa-instagram"></i> Youtube</a></li>
                                 </ul>
                             </div>
                         </div>
