@@ -4439,6 +4439,10 @@ img {
         display: none !important
     }
 
+    .main-menu .navigation .langs > ul li a{
+      justify-content: flex-end;
+    }
+
     .main-menu .navbar-header {
         position: relative;
         float: none;
@@ -13071,7 +13075,6 @@ img {
 
 .main-menu .navigation > li > ul {
     position: absolute;
-    left: 0;
     top: 100%;
     width: 300px;
     padding: 20px 0;
@@ -13083,6 +13086,14 @@ img {
     -o-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05)
 }
+
+.main-menu .navigation > li > ul:not(.c-right){
+    left: 0;
+}
+.main-menu .navigation > li > ul.c-right{
+    right: 0;
+}
+
 
 .main-menu .navigation > li > ul.from-right {
     left: auto;
@@ -18358,4 +18369,40 @@ img {
 
 .main-footer .footer-bottom p a:hover {
     text-decoration: underline
+}
+
+
+.corp-section-last .inner-box{
+    width: 100%;
+    padding: 15px 22px 15px 22px;
+}
+.corp-section-last .inner-box h4{
+    margin: 0;
+}
+
+.langs .active-lang {
+    display: inline-flex;
+    align-items: center;
+}
+.langs .active-lang img{
+    width: 22px;
+    height: 22px;
+    max-width: 22px;
+    margin-left: 5px;
+}
+
+.main-menu .navigation .langs > ul{
+    width: 200px;
+}
+
+.main-menu .navigation .langs > ul li a{
+    display: flex;
+    align-items: center;
+}
+
+.main-menu .navigation .langs > ul li a img{
+    width: 22px;
+    height: 22px;
+    max-width: 22px;
+    margin-left: 10px;
 }

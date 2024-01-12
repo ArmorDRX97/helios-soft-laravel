@@ -7,6 +7,7 @@ use App\Http\Livewire\Posts\Post as p;
 use App\Http\Livewire\Tags\Tagposts;
 use App\Http\Livewire\Tags\Tags;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\App;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,54 +43,74 @@ use Illuminate\Support\Facades\Route;
 //     return $author->comments;
 // });
 
-Route::get('/', function () {
-    return view('pages/index');
-});
+Route::middleware(['set_locale'])->group(function () {
 
-Route::get('/about', function () {
-    return view('pages/about');
-});
+    Route::get('/setlocale/{locale}', function ($locale) {
+        session(['locale' => $locale]);
+        App::setLocale($locale);
+        return redirect()->back();
+    })->name('setlocale');
 
-Route::get('/calculator', function () {
-    return view('pages/calc');
-});
+    Route::get('/', function () {
+        return view('pages/index');
+    });
 
-Route::get('/favorit', function () {
-    return view('pages/favorit');
-});
+    Route::get('/about', function () {
+        return view('pages/about');
+    });
 
-Route::get('/favorit-corp', function () {
-    return view('pages/favorit-corp');
-});
+    Route::get('/calculator', function () {
+        return view('pages/calc');
+    });
 
-Route::get('/contact', function () {
-    return view('pages/contact');
-});
+    Route::get('/favorit', function () {
+        return view('pages/favorit');
+    });
 
-Route::get('/mails', function () {
-    return view('pages/mails');
-});
+    Route::get('/favorit-corp', function () {
+        return view('pages/favorit-corp');
+    });
 
-Route::get('/certificates', function () {
-    return view('pages/certificates');
-});
+    Route::get('/contact', function () {
+        return view('pages/contact');
+    });
 
-Route::get('/service-favorit', function () {
-    return view('pages/service-favorit');
-});
+    Route::get('/mails', function () {
+        return view('pages/mails');
+    });
 
-Route::get('/service-cloud', function () {
-    return view('pages/service-cloud');
-});
+    Route::get('/certificates', function () {
+        return view('pages/certificates');
+    });
 
-Route::get('/news', function () {
-    return view('pages/news');
-});
+    Route::get('/service-favorit', function () {
+        return view('pages/service-favorit');
+    });
 
-Route::get('/new-one', function () {
-    return view('pages/new-one');
-});
+    Route::get('/service-cloud', function () {
+        return view('pages/service-cloud');
+    });
 
+    Route::get('/news', function () {
+        return view('pages/news');
+    });
+
+    Route::get('/new-resertification', function () {
+        return view('pages/new-resertification');
+    });
+    Route::get('/new-digitalization', function () {
+        return view('pages/new-digitalization');
+    });
+    Route::get('/new-open-taldyqorgan', function () {
+        return view('pages/new-open-taldyqorgan');
+    });
+    Route::get('/new-successful-implementation-completed', function () {
+        return view('pages/new-successful-implementation-completed');
+    });
+    Route::get('/new-taxes-change', function () {
+        return view('pages/new-taxes-change');
+    });
+});
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

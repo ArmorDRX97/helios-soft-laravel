@@ -5,7 +5,7 @@
     <section class="page-title" style="background-image:url(front/images/background/3.jpg)">
         <div class="container">
             <div class="outer-box">
-                <h1>Сертификаты</h1>
+                <h1>@lang('layout.certificates')</h1>
             </div>
         </div>
     </section>

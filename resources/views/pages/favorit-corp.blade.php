@@ -6,12 +6,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-8">
-                    <h1>ERP-СИСТЕМА <b>FAVORIT</b></h1>
-                    <p>Эффективный планирование и учет, строгий контроль и глубокий анализ деятельности
-                        компании</p>
+                    <h1>@lang('favorit_corp.erp_system_favorit')</h1>
+                    <p>@lang('favorit_corp.efficient_planning_and_accounting')</p>
                     <div class="link-btn">
-                        <a href="#!" class="theme-btn btn-style-one"><i class="fa fa-download mr-3"></i>Скачать</a>
-                        <a href="/contact" class="theme-btn btn-style-seven">Связаться с нами</a>
+                        <a href="#!" class="theme-btn btn-style-one"><i
+                                class="fa fa-download mr-3"></i>@lang('favorit_corp.download')</a>
+                        <a href="/contact" class="theme-btn btn-style-seven">@lang('favorit_corp.contact_us')</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
@@ -25,22 +25,15 @@
             <div class="row">
                 <div class="col-lg-6 pr-lg-4 mb-30">
                     <div class="sec-title">
-                        <div class="big-title">Система</div>
-                        <h1>20 лет <br>на рынке</h1>
+                        <div class="big-title">@lang('favorit_corp.system')</div>
+                        <h1>@lang('favorit_corp.20_years_on_the_market')</h1>
                     </div>
                     <div class="text-block-one dark">
                         <div class="text">
-                            <p>
-                                ИС "Favorit" является комплексной системой и позволяет автоматизировать все участки
-                                учета в
-                                рамках единого информационного пространства, общей системы классификаторов и справочной
-                                информации, которая не требует дополнительной синхронизации. Все это позволяет
-                                осуществлять ведение всех учетных процессов в соответствии с положениями учетной
-                                политики предприятия, налоговой учетной политики предприятия и оперативно получать
-                                информацию высокой степени достоверности
-                            </p>
+                            <p>@lang('favorit_corp.is_favorit_is_a_comprehensive_system')</p>
                         </div>
-                        <div class="link-btn"><a href="#" class="theme btn-style-one">Начать</a></div>
+                        <div class="link-btn"><a href="#" class="theme btn-style-one">@lang('favorit_corp.start')</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 pl-lg-5">
@@ -80,21 +73,11 @@
                                     <div class="col-lg-6">
                                         <div class="inner-box">
                                             <div class="icon-box"><span class="icon flaticon-group"></span></div>
-                                            <h4>Разделение ответственности труда</h4>
-                                            <div class="service-text"><p> Бухгалтер тратит много времени на рутинную
-                                                    работу,
-                                                    занимаясь вводом чужих документов и данных в систему.
-                                                    <br><br>
-                                                    А при составлении отчетности возникают ошибки. Данные предоставляли
-                                                    все,
-                                                    а
-                                                    ответственность несет за это бухгалтер, который потратит много сил и
-                                                    времени
-                                                    на поиск несоответсвий.
-                                                    <br><br>
-                                                    Используя ИС "Favorit", каждый участник процесса самостоятельно
-                                                    занимается
-                                                    вводом информации.</p>
+                                            <h4>@lang('favorit_corp.labor_responsibility_division')</h4>
+                                            <div class="service-text">
+                                                <p>@lang('favorit_corp.accountant_spends_a_lot_of_time_on_repetitive_work')</p>
+                                                <p>@lang('favorit_corp.and_when_compiling_reports_errors_occur')</p>
+                                                <p>@lang('favorit_corp.every_participant_in_the_process_independently_enters_information_using_favorit_is')</p>
                                             </div>
                                         </div>
                                     </div>
@@ -106,17 +89,10 @@
                                     <div class="col-lg-6">
                                         <div class="inner-box">
                                             <div class="icon-box"><span class="icon flaticon-hand-shake"></span></div>
-                                            <h4>Составление нерегламентированных отчетов в несколько кликов</h4>
-                                            <div class="service-text"><p>
-                                                    Нерегламентированные отчеты - это нелегкая задача, так как
-                                                    большинство
-                                                    таких
-                                                    отчетов составляются бухгалтером вручную. На некоторые требуются
-                                                    потратить
-                                                    больше дня.
-                                                    <br><br>
-                                                    А с ИС «Favorit» это можно сделать в несколько кликов.
-                                                </p>
+                                            <h4>@lang('favorit_corp.unstructured_report_generation_in_a_few_clicks')</h4>
+                                            <div class="service-text">
+                                                <p>@lang('favorit_corp.unregulated_reports_intro')</p>
+                                                <p>@lang('favorit_corp.unregulated_reports_solution')</p>
                                             </div>
                                         </div>
                                     </div>
@@ -142,12 +118,13 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="inner-box">
-                                            <div class="icon-box"><span class="icon flaticon-creative-idea"></span></div>
-                                            <h4>Моментальный поиск ошибок при составление отчетности</h4>
-                                            <div class="service-text"><p>Любая ошибка, всплывающая при составлении
-                                                    отчетности, находится моментально. Также отобразятся данные, кто из
-                                                    сотрудников и когда ввел неверные данные.</p>
+                                            <div class="icon-box"><span class="icon flaticon-creative-idea"></span>
                                             </div>
+                                            <h4>@lang('favorit_corp.instant_error_search')</h4>
+                                            <div class="service-text">
+                                                <p>@lang('favorit_corp.instant_error_description')</p>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -164,10 +141,9 @@
                                     <div class="col-lg-6">
                                         <div class="inner-box">
                                             <div class="icon-box"><span class="icon flaticon-computer-2"></span></div>
-                                            <h4>План-факторный анализ</h4>
-                                            <div class="service-text"><p>
-                                                    План-факторный анализ помогает выявить причины отклонения исполнения бюджета и своевременно принять соответствующие меры.
-                                                </p>
+                                            <h4>@lang('favorit_corp.plan_factor_analysis')</h4>
+                                            <div class="service-text">
+                                                <p>@lang('favorit_corp.plan_factor_analysis_description')</p>
                                             </div>
                                         </div>
                                     </div>
@@ -202,20 +178,14 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="inner-box">
-                                            <div class="icon-box"><span class="icon flaticon-businessman-1"></span></div>
-                                            <h4>Оперативный анализ деятельности предприятия</h4>
-                                            <div class="service-text"><p>
-                                                    В любой момент руководитель самостоятельно может получить информацию
-                                                    о
-                                                    состоянии активов и обязательств предприятия без привлечения других
-                                                    специалистов в любой точке мира, где есть интернет.
-                                                    <br><br>
-                                                    Следить за финансовой дисциплиной компании сотрудников. И получать
-                                                    оповещения в реальном времени о нарушениях: несвоевременности
-                                                    платежей,
-                                                    срывах поставок товара, а также многое другое.
-                                                </p>
+                                            <div class="icon-box"><span class="icon flaticon-businessman-1"></span>
                                             </div>
+                                            <h4>@lang('favorit_corp.operational_business_analysis')</h4>
+                                            <div class="service-text">
+                                                <p>@lang('favorit_corp.operational_business_analysis_info')</p>
+                                                <p>@lang('favorit_corp.operational_business_analysis_discipline')</p>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -226,19 +196,12 @@
                                     <div class="col-lg-6">
                                         <div class="inner-box">
                                             <div class="icon-box"><span class="icon flaticon-list"></span></div>
-                                            <h4>Прозрачность процессов</h4>
+                                            <h4>@lang('favorit_corp.transparency_of_processes')</h4>
                                             <div class="service-text">
-                                                <p>
-                                                    Руководитель в реальном времени самостоятельно может получить
-                                                    информацию
-                                                    по всем финансовым операциям в компании.
-                                                    <br><br>
-                                                    Представим, что вы ведете проект, в котором задействовано более 100
-                                                    человек. Используя ИС «Favorit», вы с легкостью получите детально
-                                                    финансовые данные по проекту и сможете понять, укладываетесь ли вы в
-                                                    финансовый план.
-                                                </p>
+                                                <p>@lang('favorit_corp.transparency_of_processes_info')</p>
+                                                <p>@lang('favorit_corp.transparency_of_processes_project_example')</p>
                                             </div>
+
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
@@ -252,9 +215,80 @@
             </div>
         </div>
     </section>
-    <section>
+
+k
+    <section class="our-service sp-two grey-bg corp-section-last">
         <div class="container">
-            <img src="front/images/ssss.png" alt="ssss" class="w-100">
+            <div class="sec-title centered style-two deep">
+                <h1>@lang('favorit_corp.features')</h1>
+            </div>
+            <div class="row">
+                <div class="service-block-six col-lg-3 col-md-6">
+                    <div class="inner-box hvr-bounce-to-bottom">
+                        <div class="icon-box">
+                            <span class="flaticon-agenda"></span>
+                        </div>
+                        <h4>@lang('favorit_corp.planning')</h4>
+                    </div>
+                </div>
+                <div class="service-block-six col-lg-3 col-md-6">
+                    <div class="inner-box hvr-bounce-to-bottom">
+                        <div class="icon-box">
+                            <span class="flaticon-budget"></span>
+                        </div>
+                        <h4>@lang('favorit_corp.cash_management')</h4>
+                    </div>
+                </div>
+                <div class="service-block-six col-lg-3 col-md-6">
+                    <div class="inner-box hvr-bounce-to-bottom">
+                        <div class="icon-box">
+                            <span class="flaticon-project"></span>
+                        </div>
+                        <h4>@lang('favorit_corp.general_ledger')</h4>
+                    </div>
+                </div>
+                <div class="service-block-six col-lg-3 col-md-6">
+                    <div class="inner-box hvr-bounce-to-bottom">
+                        <div class="icon-box">
+                            <span class="flaticon-process"></span>
+                        </div>
+                        <h4>@lang('favorit_corp.inventory_management')</h4>
+                    </div>
+                </div>
+                <div class="service-block-six col-lg-3 col-md-6">
+                    <div class="inner-box hvr-bounce-to-bottom">
+                        <div class="icon-box">
+                            <span class="flaticon-hand-shake"></span>
+                        </div>
+                        <h4>@lang('favorit_corp.work_and_services_accounting')</h4>
+                    </div>
+                </div>
+                <div class="service-block-six col-lg-3 col-md-6">
+                    <div class="inner-box hvr-bounce-to-bottom">
+                        <div class="icon-box">
+                            <span class="flaticon-profile"></span>
+                        </div>
+                        <h4>@lang('favorit_corp.personnel_accounting')</h4>
+                    </div>
+                </div>
+                <div class="service-block-six col-lg-3 col-md-6">
+                    <div class="inner-box hvr-bounce-to-bottom">
+                        <div class="icon-box">
+                            <span class="flaticon-presentation"></span>
+                        </div>
+                        <h4>@lang('favorit_corp.long_term_assets_accounting')</h4>
+                    </div>
+                </div>
+                <div class="service-block-six col-lg-3 col-md-6">
+                    <div class="inner-box hvr-bounce-to-bottom">
+                        <div class="icon-box">
+                            <span class="flaticon-journal"></span>
+                        </div>
+                        <h4>@lang('favorit_corp.summary_and_consolidation')</h4>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
 @endsection

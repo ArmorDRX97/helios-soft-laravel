@@ -5,14 +5,14 @@
     <div class="product-main" style="background-image: url(front/images/main-slider/image-20.jpg);">
         <div class="container">
             <div class="text-center">
-                <h5>Бесплатный</h5>
-                <h1>Кредитный калькулятор</h1>
-                <p>Самый точный и надежный зарлпатный калькулятор для педагогов по всему Казахстану</p>
+                <h5>@lang('calc.free')</h5>
+                <h1>@lang('calc.credit_calculator')</h1>
+                <p>@lang('calc.most_accurate_and_reliable_salary_calculator')</p>
                 <div class="link-btn">
-                    <a href="https://zp.fvr.kz/" target="_blank" class="theme-btn btn-style-seven">Попробовать <i
-                            class="fa fa-arrow-right ml-10"></i></a>
+                    <a href="https://zp.fvr.kz/" target="_blank" class="theme-btn btn-style-seven">@lang('calc.try_now') <i class="fa fa-arrow-right ml-10"></i></a>
                 </div>
             </div>
+
         </div>
     </div>
 
@@ -32,17 +32,15 @@
                 </div>
                 <div class="col-lg-6 pl-lg-5">
                     <div class="sec-title deep">
-                        <div class="big-title">Зарплата</div>
-                        <h1>Точные расчеты</h1>
+                        <div class="big-title">@lang('calc.salary')</div>
+                        <h1>@lang('calc.accurate_calculations')</h1>
                     </div>
                     <div class="tab-box mb-30">
                         <div class="text">
-                            <p>Калькулятор предназначен для расчета начисленной заработной платы педагогов
-                                общеобразовательных школ и дошкольных учреждений областного, городского (районного)
-                                уровня (подчинения) со всеми возможными вариантами доплаты, учебной нагрузки по
-                                тпрификации и часами замены.</p>
+                            <p>@lang('calc.calculator_for_calculation_of_salary')</p>
                         </div>
                     </div>
+
                     <!-- end tab -->
                 </div>
             </div>
@@ -64,7 +62,7 @@
                                 </div>
                                 <div class="count-outer count-box">
                                     <span data-stop="8281425" class="count-text" data-speed="3000"></span>
-                                    <p>Всего расчетов</p>
+                                    <p>@lang('calc.total_calculations')</p>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +77,7 @@
                                 </div>
                                 <div class="count-outer count-box">
                                     <span data-stop="51524" class="count-text" data-speed="3000"></span>
-                                    <p>За последние 30 дней</p>
+                                    <p>@lang('calc.last_30_days')</p>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +93,7 @@
                                 </div>
                                 <div class="count-outer count-box">
                                     <span data-stop="458" class="count-text" data-speed="3000"></span>
-                                    <p>Сегодня</p>
+                                    <p>@lang('calc.today')</p>
                                 </div>
                             </div>
                         </div>
@@ -111,24 +109,25 @@
                 <div class="col-lg-8">
                     <div class="sec-title style-two deep">
                         <div class="big-title">FAQ</div>
-                        <h1>Вопросы и ответы</h1>
+                        <h1>@lang('calc.questions_and_answers')</h1>
+                    </div>
+                    <div class="text">
+                        <p class="m-0">@lang('calc.general_telegram_chat')</p>
+                        <p class="text-muted">@lang('calc.all_discussions_are_recommendatory')</p>
                     </div>
 
-                    <h1 style="color: red;">Вставить красиво Telegram канал и кнопку на него. Добавить еще текст который в самом чате (в его описании)</h1>
-                    <!-- end -->
+                    <a href="https://t.me/+m7KaH3N-tc0zMzJi" target="_blank" class="btn btn-success btn-lg">@lang('calc.join')</a>
                 </div>
                 <div class="col-lg-4">
                     <div class="request-callback">
                         <div class="inner-box">
-                            <h4>Оставьте заявку на обратный звонок</h4>
-                            <div class="text">Оставьте вашу заявку, и мы свяжемся с вами в ближайшее время. Наши
-                                специалисты готовы помочь вам.
-                            </div>
+                            <div class="text">@lang('calc.contact_us_any_question')</div>
                             <div class="phone-number mb-3"><span class="flaticon-headphones"></span>+7 (7172) 79 80 30</div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 

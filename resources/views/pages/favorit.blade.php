@@ -6,12 +6,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-8">
-                    <h1>ERP-СИСТЕМА <br><b>FAVORIT EDUCATION</b></h1>
-                    <p>Эффективный планирование и учет, строгий контроль и глубокий анализ деятельности
-                        всех организаций образования в едином облаке</p>
+                    <h1>@lang('favorit_education.erp_system_title')</h1>
+                    <p>@lang('favorit_education.erp_system_description')</p>
                     <div class="link-btn">
-                        <a href="#!" class="theme-btn btn-style-one"><i class="fa fa-download mr-3"></i>Скачать</a>
-                        <a href="/contact" class="theme-btn btn-style-seven">Связаться с нами</a>
+                        <a href="#!" class="theme-btn btn-style-one">
+                            <i class="fa fa-download mr-3"></i>@lang('favorit_education.download_button')
+                        </a>
+                        <a href="/contact" class="theme-btn btn-style-seven">
+                            @lang('favorit_education.contact_button')
+                        </a>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
@@ -57,25 +60,22 @@
         <div class="container">
             <!-- sec tietle -->
             <div class="sec-title centered style-two deep">
-                <div class="big-title">Что она может?</div>
-                <h1>Функциональные возможности</h1>
-                <p class="subtitle">Функционал учетной системы согласно Приказа № 456 Об утверждении минимальных
-                    требований к объектам информатизации в области образования
-                </p>
+                <div class="big-title">@lang('favorit_education.capabilities_title')</div>
+                <h1>@lang('favorit_education.functional_capabilities_title')</h1>
+                <p class="subtitle">@lang('favorit_education.functional_capabilities_subtitle')</p>
             </div>
+
             <div class="row">
                 <div class="service-block-six col-lg-3 col-md-4">
                     <div class="inner-box hvr-bounce-to-bottom">
                         <div class="icon-box">
                             <span class="icon flaticon-money-1"></span>
                         </div>
-                        <h4>Бюджетирование и планирование</h4>
+                        <h4>@lang('favorit_education.budgeting_title')</h4>
                         <ul class="list-group">
-                            <li class="list-group-item">Бюджетная заявка (расчетные формы, в т.ч Тарификация
-                                педагогов)
-                            </li>
-                            <li class="list-group-item">Справки и передвижки</li>
-                            <li class="list-group-item">Контроль фондов</li>
+                            <li class="list-group-item">@lang('favorit_education.budgeting_item1')</li>
+                            <li class="list-group-item">@lang('favorit_education.budgeting_item2')</li>
+                            <li class="list-group-item">@lang('favorit_education.budgeting_item3')</li>
                         </ul>
                     </div>
                 </div>
@@ -84,12 +84,12 @@
                         <div class="icon-box">
                             <span class="flaticon-strategy"></span>
                         </div>
-                        <h4>Бухгалтерский и налоговый учет</h4>
+                        <h4>@lang('favorit_education.accounting_title')</h4>
                         <ul class="list-group">
-                            <li class="list-group-item">Закупки, управление договорами</li>
-                            <li class="list-group-item">Учет ОС и ТМЗ, складской учет</li>
-                            <li class="list-group-item">Зарплата и выплаты физ. лицам</li>
-                            <li class="list-group-item">Банк и учет денежных средств</li>
+                            <li class="list-group-item">@lang('favorit_education.accounting_item1')</li>
+                            <li class="list-group-item">@lang('favorit_education.accounting_item2')</li>
+                            <li class="list-group-item">@lang('favorit_education.accounting_item3')</li>
+                            <li class="list-group-item">@lang('favorit_education.accounting_item4')</li>
                         </ul>
                     </div>
                 </div>
@@ -98,12 +98,12 @@
                         <div class="icon-box">
                             <span class="flaticon-laptop"></span>
                         </div>
-                        <h4>Управление контингентом</h4>
+                        <h4>@lang('favorit_education.management_title')</h4>
                         <ul class="list-group">
-                            <li class="list-group-item">Приказной учет</li>
-                            <li class="list-group-item">Учет персонала</li>
-                            <li class="list-group-item">Учет пед. состава</li>
-                            <li class="list-group-item">Учет учащихся</li>
+                            <li class="list-group-item">@lang('favorit_education.management_item1')</li>
+                            <li class="list-group-item">@lang('favorit_education.management_item2')</li>
+                            <li class="list-group-item">@lang('favorit_education.management_item3')</li>
+                            <li class="list-group-item">@lang('favorit_education.management_item4')</li>
                         </ul>
                     </div>
                 </div>
@@ -112,11 +112,11 @@
                         <div class="icon-box">
                             <span class="flaticon-project"></span>
                         </div>
-                        <h4>Отдельная и сводная отчетность</h4>
+                        <h4>@lang('favorit_education.reporting_title')</h4>
                         <ul class="list-group">
-                            <li class="list-group-item">Финансовая и бюджетная отчетность</li>
-                            <li class="list-group-item">Регламентированная бух. отчетность</li>
-                            <li class="list-group-item">Налоговая и стат. отчетность</li>
+                            <li class="list-group-item">@lang('favorit_education.reporting_item1')</li>
+                            <li class="list-group-item">@lang('favorit_education.reporting_item2')</li>
+                            <li class="list-group-item">@lang('favorit_education.reporting_item3')</li>
                         </ul>
                     </div>
                 </div>
@@ -127,21 +127,18 @@
     <section class="parallax-section sp-two favorit-corruption-section" style="background-image:url(front/images/main-slider/image-17.jpg);">
         <div class="container">
             <div class="sec-title centered light">
-                <h1>Конкурентные преимущества</h1>
-                <p class="subtitle mt-3">Снижение коррупционных рисков за счет цифровизации учетных процессов и системы
-                    внутренних контролей в ИС Favorit.</p>
+                <h1>@lang('favorit_education.advantages_title')</h1>
+                <p class="subtitle mt-3">@lang('favorit_education.advantages_subtitle')</p>
             </div>
+
 
             <div class="owl-carousel-favorit-corruption owl-carousel owl-theme">
                 <div class="item">
                     <div class="row align-items-md-center">
                         <div class="col-12 col-lg-7">
                             <div class="favorit-corruption-card">
-                                <h6>Жесткое разделение функций делопроизводителя, завуча и бухгалтера-расчетчика на
-                                    уровне ролей системы</h6>
-                                <div class="text">Исключение феномена «абсолютной» самостоятельности бухгалтера при расчете
-                                    и выплате зарплаты
-                                </div>
+                                <h6>@lang('favorit_education.role_functionality')</h6>
+                                <div class="text">@lang('favorit_education.role_functionality_description')</div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-5">
@@ -153,10 +150,8 @@
                     <div class="row align-items-md-center">
                         <div class="col-12 col-lg-7">
                             <div class="favorit-corruption-card">
-                                <h6>Прозрачный учет от консолидированной отчетности до первичного документа в отдельной организации образования
-                                </h6>
-                                <div class="text">Благодаря единой системе учета для всех организаций и оцифровке полного цикла первичного учета, возможно проводить анализ и аудит деятельности всех организаций образования в короткие сроки.
-                                </div>
+                                <h6>@lang('favorit_education.transparency_accounting')</h6>
+                                <div class="text">@lang('favorit_education.transparency_accounting_description')</div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-5">
@@ -168,8 +163,8 @@
                     <div class="row align-items-md-center">
                         <div class="col-12 col-lg-7">
                             <div class="favorit-corruption-card">
-                                <h6>Проверка сертификатов о присвоении категорий преподавателей</h6>
-                                <div class="text">За счет интеграции с Национальным центром тестирования в системе есть возможность проверять подлинность сертификатов при внесении соответствующих приказов</div>
+                                <h6>@lang('favorit_education.teacher_certificates_check')</h6>
+                                <div class="text">@lang('favorit_education.teacher_certificates_check_description')</div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-5">
@@ -181,8 +176,8 @@
                     <div class="row align-items-md-center">
                         <div class="col-12 col-lg-7">
                             <div class="favorit-corruption-card">
-                                <h6>Автоматизирован процесс формирования и утверждения бюджетных заявок на уровне Управления образования</h6>
-                                <div class="text">Реализованы все бюджетные процессы (бюджетная заявка, передвижки, финансирование) с контролями сроков и лимитов, с обязательным приложением подтверждающих документов (коммерческие предложения, обоснования, письма)</div>
+                                <h6>@lang('favorit_education.automated_budget_requests')</h6>
+                                <div class="text">@lang('favorit_education.automated_budget_requests_description')</div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-5">
@@ -194,10 +189,8 @@
                     <div class="row align-items-md-center">
                         <div class="col-12 col-lg-7">
                             <div class="favorit-corruption-card">
-                                <h6>Контроль начисления зарплаты
-                                </h6>
-                                <div class="text">В системе реализован контроль начисления заработной платы однократно в месяц с учетом имеющихся в системе норм (тариф, нагрузка, лимиты часов)
-                                </div>
+                                <h6>@lang('favorit_education.salary_calculation_control')</h6>
+                                <div class="text">@lang('favorit_education.salary_calculation_control_description')</div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-5">
@@ -205,14 +198,13 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="item">
                     <div class="row align-items-md-center">
                         <div class="col-12 col-lg-7">
                             <div class="favorit-corruption-card">
-                                <h6>Сверка ИИН и ФИО сотрудника (в реализации)
-                                </h6>
-                                <div class="text">За счет интеграции с государственной системой физических лиц будет реализована возможность сверки ИИН и ФИО сотрудника/ребенка для недопущения искажений в учете
-                                </div>
+                                <h6>@lang('favorit_education.iin_name_verification')</h6>
+                                <div class="text">@lang('favorit_education.iin_name_verification_description')</div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-5">
@@ -224,10 +216,8 @@
                     <div class="row align-items-md-center">
                         <div class="col-12 col-lg-7">
                             <div class="favorit-corruption-card">
-                                <h6>Контроль выплаты авансов
-                                </h6>
-                                <div class="text">В системе реализована возможность ограничивать размер выплаты аванса в зависимости от должностного оклада
-                                </div>
+                                <h6>@lang('favorit_education.advance_payment_control')</h6>
+                                <div class="text">@lang('favorit_education.advance_payment_control_description')</div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-5">
@@ -239,10 +229,8 @@
                     <div class="row align-items-md-center">
                         <div class="col-12 col-lg-7">
                             <div class="favorit-corruption-card">
-                                <h6>Интеграция с порталом государственных закупок в части загрузки планов закупок, договоров и спецификаций, актов выполненных работ
-                                </h6>
-                                <div class="text">Есть возможность оперативного анализа по освоению средств в разрезе ТРУ (товаров, работ, услуг).
-                                </div>
+                                <h6>@lang('favorit_education.integration_state_procurement_portal')</h6>
+                                <div class="text">@lang('favorit_education.integration_state_procurement_portal_description')</div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-5">
@@ -254,11 +242,8 @@
                     <div class="row align-items-md-center">
                         <div class="col-12 col-lg-7">
                             <div class="favorit-corruption-card">
-                                <h6>Казначейский контроль (5-15)</h6>
-                                <div class="text">Реализована автоматическая проверка ежедневных платежей по форме 5-15, через загрузку выписок казначейства и сверок проведенных в системе платежей.
-                                    <br><br>
-                                    Наличие расхождений не дает возможности пользователю производить дальнейшую работу в системе.
-                                </div>
+                                <h6>@lang('favorit_education.treasury_control_5_15')</h6>
+                                <div class="text">@lang('favorit_education.treasury_control_5_15_description')</div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-5">
@@ -270,10 +255,8 @@
                     <div class="row align-items-md-center">
                         <div class="col-12 col-lg-7">
                             <div class="favorit-corruption-card">
-                                <h6>Контроль списков по зарплате (5-15 А)
-                                </h6>
-                                <div class="text">Функционирует возможность ежедневного контроля расхождений списков в "Favorit" и отправленных в ИС Казначейство, через загрузку и сверку формы 5-15 А по ФИО, банковскому счету, ИИН, сумме. Такие сверки можно производить как на уровне ГУ, так и отдела/управления образования
-                                </div>
+                                <h6>@lang('favorit_education.salary_list_control_5_15_a')</h6>
+                                <div class="text">@lang('favorit_education.salary_list_control_5_15_a_description')</div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-5">
@@ -285,10 +268,8 @@
                     <div class="row align-items-md-center">
                         <div class="col-12 col-lg-7">
                             <div class="favorit-corruption-card">
-                                <h6>Контроль учета фондов
-                                </h6>
-                                <div class="text">Реализован механизм автоматического контроля исполнения бюджета за счет сверки данных Казначейства (4-20, 3-04) с данными учета в системе "Favorit". Наличие расхождений не дает возможности пользователю производить дальнейшую работу в системе.
-                                </div>
+                                <h6>@lang('favorit_education.fund_accounting_control')</h6>
+                                <div class="text">@lang('favorit_education.fund_accounting_control_description')</div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-5">
@@ -304,90 +285,72 @@
         <div class="container">
             <div class="sec-title centered style-two deep">
                 <div class="big-title">Favorit</div>
-                <h1>Ключевые особенности</h1>
+                <h1>@lang('favorit_education.key_features')</h1>
             </div>
+
             <div class="row">
                 <div class="col-lg-6">
                     <div class="outer-box">
                         <div class="service-block-five special1">
                             <div class="inner-box">
                                 <div class="icon-box"><span class="icon fa fa-database"></span></div>
-                                <h4>Единая база с унифицированной конфигурацией и справочниками</h4>
+                                <h4>@lang('favorit_education.single_database')</h4>
                             </div>
                         </div>
                         <div class="service-block-five special1">
                             <div class="inner-box">
                                 <div class="icon-box"><span class="icon fa fa-users"></span></div>
-                                <h4>Неограниченное количество пользователей при доступе к системе</h4>
+                                <h4>@lang('favorit_education.unlimited_users')</h4>
                             </div>
                         </div>
                         <div class="service-block-five special1">
                             <div class="inner-box">
                                 <div class="icon-box"><span class="icon fa fa-fighter-jet"></span></div>
-                                <h4>Оптимизация</h4>
-                                <div class="service-text">Оперативность обработки данных достигается за счет оптимизации
-                                    бизнес-процессов, а также встроенных решений по автоматизации
-                                    обработки данных
-                                </div>
+                                <h4>@lang('favorit_education.optimization')</h4>
+                                <div class="service-text">@lang('favorit_education.optimization_description')</div>
                             </div>
                         </div>
                         <div class="service-block-five special1">
                             <div class="inner-box">
                                 <div class="icon-box"><span class="icon fa fa-cloud"></span></div>
-                                <h4>Единое облако</h4>
-                                <div class="service-text">Централизованное облачное хранилище с данными по всем
-                                    подведомственным с аудиторским следом, резервированием и доступом к АБП на всех
-                                    уровнях
-                                </div>
+                                <h4>@lang('favorit_education.single_cloud')</h4>
+                                <div class="service-text">@lang('favorit_education.cloud_description')</div>
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="col-lg-6">
                     <div class="outer-box">
                         <div class="service-block-five special1">
                             <div class="inner-box">
                                 <div class="icon-box"><span class="icon fa fa-money"></span></div>
-                                <h4>Тариф единый по стране для всех организаций</h4>
+                                <h4>@lang('favorit_education.unified_tariff')</h4>
                             </div>
                         </div>
                         <div class="service-block-five special1">
                             <div class="inner-box">
                                 <div class="icon-box"><span class="icon fa fa-laptop"></span></div>
-                                <h4>Функциональность</h4>
-                                <div class="service-text">
-                                    Бюджет, бухгалтерский учет, налоговый учет, учет кадров, учет контингента (дети и
-                                    педагоги), учет в образовании, тарификация, отдельная и сводная отчетность
-                                </div>
+                                <h4>@lang('favorit_education.functionality')</h4>
+                                <div class="service-text">@lang('favorit_education.functionality_description')</div>
                             </div>
                         </div>
                         <div class="service-block-five special1">
                             <div class="inner-box">
                                 <div class="icon-box"><span class="icon fa fa-file-archive-o"></span></div>
-                                <h4>Процесс учета</h4>
-                                <div class="service-text">В процесс учета вовлечены бухгалтера, экономисты,
-                                    делопроизводители, завучи, завхозы
-                                </div>
+                                <h4>@lang('favorit_education.accounting_process')</h4>
+                                <div class="service-text">@lang('favorit_education.accounting_process_description')</div>
                             </div>
                         </div>
                         <div class="service-block-five special1">
                             <div class="inner-box">
                                 <div class="icon-box"><span class="icon fa fa-cube"></span></div>
-                                <h4>Отечественное решение</h4>
-                                <div class="service-text">
-                                    Исходные коды прошли испытания на информационную безопасность и переданы
-                                    государству.
-                                    <br>
-                                    В реестре доверенного ПО РК.
-                                    <br>
-                                    Все расходы в едином тарифе.
-                                </div>
+                                <h4>@lang('favorit_education.domestic_solution')</h4>
+                                <div class="service-text">@lang('favorit_education.domestic_solution_description')</div>
                             </div>
                         </div>
                     </div>
-
                 </div>
+
             </div>
         </div>
     </section>

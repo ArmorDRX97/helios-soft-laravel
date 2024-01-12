@@ -5,7 +5,7 @@
     <section class="page-title" style="background-image:url(front/images/background/3.jpg)">
         <div class="container">
             <div class="outer-box">
-                <h1>Контакты</h1>
+                <h1>@lang('layout.contacts')</h1>
             </div>
         </div>
     </section>
@@ -13,18 +13,19 @@
     <section class="our-experience grey-bg sp-two">
         <div class="container">
             <div class="sec-title deep">
-                <div class="big-title">Региональные центры</div>
-                <h1>Наши офисы и контакты</h1>
+                <div class="big-title">@lang('layout.regions_center')</div>
+                <h1>@lang('layout.our_office_and_contacts')</h1>
             </div>
             <div class="tab-box tab-box-contacts">
                 <ul class="tab-list">
-                    <li><a href="#tab-one" class="active-btn tab-btn">Астана</a></li>
-                    <li><a href="#tab-two" class="tab-btn">Усть-Каменогорск</a></li>
-                    <li><a href="#tab-three" class="tab-btn">Семей</a></li>
-                    <li><a href="#tab-four" class="tab-btn">Кокшетау</a></li>
-                    <li><a href="#tab-five" class="tab-btn">Павлодар</a></li>
-                    <li><a href="#tab-six" class="tab-btn">Туркестан</a></li>
-                    <li><a href="#tab-seven" class="tab-btn">Талдыкорган</a></li>
+                    <li><a href="#tab-one" class="active-btn tab-btn">@lang('index.astana')</a></li>
+                    <li><a href="#tab-two" class="tab-btn">@lang('index.ust_kamenogorsk')</a></li>
+                    <li><a href="#tab-three" class="tab-btn">@lang('index.semey')</a></li>
+                    <li><a href="#tab-four" class="tab-btn">@lang('index.kokshetau')</a></li>
+                    <li><a href="#tab-five" class="tab-btn">@lang('index.pavlodar')</a></li>
+                    <li><a href="#tab-six" class="tab-btn">@lang('index.turkestan')</a></li>
+                    <li><a href="#tab-seven" class="tab-btn">@lang('index.taldykorgan')</a></li>
+
                 </ul>
                 <div class="tab-content">
                     <div class="tab-item active-tab" id="tab-one">
@@ -177,7 +178,7 @@
     <section class="contact-form-section sp-two">
         <div class="container">
             <div class="sec-title centered">
-                <h1>Контактная форма</h1>
+                <h1>@lang('layout.contact_form')</h1>
             </div>
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
@@ -187,13 +188,13 @@
                                 <div class="col-md-6 column">
                                     <div class="form-group">
                                         <input type="text" name="form_name" class="form-control" value=""
-                                               placeholder="Имя" required="" aria-required="true">
+                                               placeholder="@lang('layout.first_name')" required="" aria-required="true">
                                     </div>
                                 </div>
                                 <div class="col-md-6 column">
                                     <div class="form-group">
                                         <input type="text" name="form_subject" class="form-control" value=""
-                                               placeholder="Фамилия" required="" aria-required="true">
+                                               placeholder="@lang('layout.last_name')" required="" aria-required="true">
                                     </div>
                                 </div>
                                 <div class="col-md-6 column">
@@ -205,13 +206,13 @@
                                 <div class="col-md-6 column">
                                     <div class="form-group">
                                         <input type="text" name="form_phone" class="form-control" value=""
-                                               placeholder="Телефон" required="" aria-required="true">
+                                               placeholder="@lang('layout.phone')" required="" aria-required="true">
                                     </div>
                                 </div>
                                 <div class="col-md-12 column">
                                     <div class="form-group">
-                                        <textarea name="form_message" class="form-control textarea required"
-                                                  placeholder="Ваше сообщение" aria-required="true"></textarea>
+                                <textarea name="form_message" class="form-control textarea required"
+                                          placeholder="@lang('layout.your_message')" aria-required="true"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -220,7 +221,7 @@
                                     <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden"
                                            value="">
                                     <button class="theme-btn btn-style-one" type="submit"
-                                            data-loading-text="Please wait...">Связаться с нами
+                                            data-loading-text="Please wait...">@lang('layout.contact_us')
                                     </button>
                                 </div>
                             </div>
@@ -229,6 +230,7 @@
                 </div>
             </div>
         </div>
+
     </section>
 
     <script src="https://maps.api.2gis.ru/2.0/loader.js"></script>

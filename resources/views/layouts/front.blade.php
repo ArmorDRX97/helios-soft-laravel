@@ -16,7 +16,7 @@
     <link href="front/css/custom.css?v{{$version}}" rel="stylesheet">
     <link href="front/css/responsive.css" rel="stylesheet">
     <link href="front/css/custom2.css?v{{$version}}" rel="stylesheet">
-    <title>Helios Soft - казахстанская IT компания</title>
+    <title>@lang('layout.title')</title>
 </head>
 <body>
 
@@ -55,33 +55,69 @@
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
 
-                                        <li><a href="/">Главная</a></li>
-                                        <li><a href="/about">О компании</a></li>
-                                        <li class="dropdown"><a href="#">Продукты</a>
+                                        <li><a href="/">@lang('layout.main')</a></li>
+                                        <li><a href="/about">@lang('layout.about')</a></li>
+                                        <li class="dropdown"><a href="#">@lang('layout.products')</a>
                                             <ul style="display: none;">
-                                                <li><a href="/favorit">ИС "Favorit" Education</a></li>
-                                                <li><a href="/favorit-corp">ИС "Favorit" Corp</a></li>
-                                                <li><a href="/calculator">Калькулятор</a></li>
+                                                <li><a href="/favorit">@lang('layout.favorit_education')</a></li>
+                                                <li><a href="/favorit-corp">@lang('layout.favorit_corp')</a></li>
+                                                <li><a href="/calculator">@lang('layout.calc')</a></li>
                                             </ul>
                                             <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                         </li>
 
-                                        <li class="dropdown"><a href="#">Услуги</a>
+                                        <li class="dropdown"><a href="#">@lang('layout.services')</a>
                                             <ul style="display: none;">
-                                                <li><a href="/service-cloud">Облачный сервис</a></li>
-                                                <li><a href="/service-favorit">Техническая поддержка и обучение</a></li>
+                                                <li><a href="/service-cloud">@lang('layout.cloud_service')</a></li>
+                                                <li><a href="/service-favorit">@lang('layout.tech_and_obu')</a></li>
                                             </ul>
                                             <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                         </li>
-                                        <li class="dropdown"><a href="#">Клиенты</a>
+                                        <li class="dropdown"><a href="#">@lang('layout.clients')</a>
                                             <ul style="display: none;">
-                                                <li><a href="/mails">Письма</a></li>
-                                                <li><a href="/certificates">Сертификаты</a></li>
+                                                <li><a href="/mails">@lang('layout.mails')</a></li>
+                                                <li><a href="/certificates">@lang('layout.certificates')</a></li>
                                             </ul>
                                             <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                         </li>
-                                                                                <li><a href="/news">Новости</a></li>
-                                        <li><a href="/contact">Контакты</a></li>
+                                                                                <li><a href="/news">@lang('layout.news')</a></li>
+
+                                        <li><a href="/contact">@lang('layout.contacts')</a></li>
+                                        <li class="dropdown langs">
+                                            <a href="#" class="active-lang">
+                                                @if(app()->getLocale() == 'ru')
+                                                    RU <img src="front/images/langs/ru.png" alt="ru">
+                                                @elseif(app()->getLocale() == 'kz')
+                                                    KZ <img src="front/images/langs/kz.png" alt="kz">
+                                                @elseif(app()->getLocale() == 'en')
+                                                    EN <img src="front/images/langs/en.png" alt="en">
+                                                @endif
+                                            </a>
+                                            <ul class="c-right" style="display: none;">
+                                                <li>
+                                                    @if(app()->getLocale() !== 'ru')
+                                                        <a class="lang-item" href="{{ route('setlocale', 'ru') }}">
+                                                            <span>RU</span><img src="front/images/langs/ru.png" alt="ru">
+                                                        </a>
+                                                    @endif
+                                                </li>
+                                                <li>
+                                                    @if(app()->getLocale() !== 'kz')
+                                                        <a class="lang-item" href="{{ route('setlocale', 'kz') }}">
+                                                            <span>KZ</span><img src="front/images/langs/kz.png" alt="kz">
+                                                        </a>
+                                                    @endif
+                                                </li>
+                                                <li>
+                                                    @if(app()->getLocale() !== 'en')
+                                                        <a class="lang-item" href="{{ route('setlocale', 'en') }}">
+                                                            <span>EN</span><img src="front/images/langs/en.png" alt="en">
+                                                        </a>
+                                                    @endif
+                                                </li>
+                                            </ul>
+                                            <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
+                                        </li>
                                     </ul>
                                 </div>
                             </nav>
@@ -110,32 +146,67 @@
                     <nav class="main-menu navbar-expand-lg">
                         <div class="navbar-collapse clearfix">
                             <ul class="navigation clearfix">
-                                <li><a href="/">Главная</a></li>
-                                <li><a href="/about">О компании</a></li>
-                                <li class="dropdown"><a href="#">Продукты</a>
+                                <li><a href="/">@lang('layout.main')</a></li>
+                                <li><a href="/about">@lang('layout.about')</a></li>
+                                <li class="dropdown"><a href="#">@lang('layout.products')</a>
                                     <ul style="display: none;">
-                                        <li><a href="/favorit">ИС "Favorit" Education<i class="fa fa-angle-left"></i></a></li>
-                                        <li><a href="/favorit-corp">ИС "Favorit" Corp<i class="fa fa-angle-left"></i></a></li>
-                                        <li><a href="/calculator">Калькулятор <i class="fa fa-angle-left"></i></a></li>
+                                        <li><a href="/favorit">@lang('layout.favorit_education')<i class="fa fa-angle-left"></i></a></li>
+                                        <li><a href="/favorit-corp">@lang('layout.favorit_corp')<i class="fa fa-angle-left"></i></a></li>
+                                        <li><a href="/calculator">@lang('layout.calc') <i class="fa fa-angle-left"></i></a></li>
                                     </ul>
                                     <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                 </li>
-                                <li class="dropdown"><a href="#">Услуги</a>
+                                <li class="dropdown"><a href="#">@lang('layout.services')</a>
                                     <ul style="display: none;">
-                                        <li><a href="/service-cloud">Облачный сервис <i class="fa fa-angle-left"></i></a></li>
-                                        <li><a href="/service-favorit">Техническая поддержка и обучение <i class="fa fa-angle-left"></i></a></li>
+                                        <li><a href="/service-cloud">@lang('layout.cloud_service') <i class="fa fa-angle-left"></i></a></li>
+                                        <li><a href="/service-favorit">@lang('layout.tech_and_obu') <i class="fa fa-angle-left"></i></a></li>
                                     </ul>
                                     <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                 </li>
-                                <li class="dropdown"><a href="#">Клиенты</a>
+                                <li class="dropdown"><a href="#">@lang('layout.clients')</a>
                                     <ul style="display: none;">
-                                        <li><a href="/mails">Письма <i class="fa fa-angle-left"></i></a></li>
-                                        <li><a href="/certificates">Сертификаты <i class="fa fa-angle-left"></i></a></li>
+                                        <li><a href="/mails">@lang('layout.mails') <i class="fa fa-angle-left"></i></a></li>
+                                        <li><a href="/certificates">@lang('layout.certificates') <i class="fa fa-angle-left"></i></a></li>
                                     </ul>
                                     <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                 </li>
-                                                                <li><a href="/news">Новости</a></li>
-                                <li><a href="/contact">Контакты</a></li>
+                                                                <li><a href="/news">@lang('layout.news')</a></li>
+                                <li><a href="/contact">@lang('layout.contacts')</a></li>
+                                <li class="dropdown langs">
+                                    <a href="#" class="active-lang">
+                                        @if(app()->getLocale() == 'ru')
+                                            RU <img src="front/images/langs/ru.png" alt="ru">
+                                        @elseif(app()->getLocale() == 'kz')
+                                            KZ <img src="front/images/langs/kz.png" alt="kz">
+                                        @elseif(app()->getLocale() == 'en')
+                                            EN <img src="front/images/langs/en.png" alt="en">
+                                        @endif
+                                    </a>
+                                    <ul class="c-right" style="display: none;">
+                                        <li>
+                                            @if(app()->getLocale() !== 'ru')
+                                                <a class="lang-item" href="{{ route('setlocale', 'ru') }}">
+                                                    <span>RU</span><img src="front/images/langs/ru.png" alt="ru">
+                                                </a>
+                                            @endif
+                                        </li>
+                                        <li>
+                                            @if(app()->getLocale() !== 'kz')
+                                                <a class="lang-item" href="{{ route('setlocale', 'kz') }}">
+                                                    <span>KZ</span><img src="front/images/langs/kz.png" alt="kz">
+                                                </a>
+                                            @endif
+                                        </li>
+                                        <li>
+                                            @if(app()->getLocale() !== 'en')
+                                                <a class="lang-item" href="{{ route('setlocale', 'en') }}">
+                                                    <span>EN</span><img src="front/images/langs/en.png" alt="en">
+                                                </a>
+                                            @endif
+                                        </li>
+                                    </ul>
+                                    <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
+                                </li>
                             </ul>
                         </div>
                     </nav>
@@ -163,19 +234,18 @@
                                 </figure>
                             </div>
                             <div class="widget-content">
-                                <div class="text">В 2023 году ИС "Favorit" в очередной раз подтвердил соответствие продукта высокой надежности и безопасности, пройдя сертификацию на информационную безопасность</div>
+                                <div class="text">@lang('layout.footer_text')</div>
                             </div>
                         </div>
                     </div>
 
                     <div class="big-column footer-column col-lg-4">
                         <div class="footer-widget services-widget no-arrow">
-                            <h2 class="widget-title">Головной офис</h2>
+                            <h2 class="widget-title">@lang('layout.main_office')</h2>
                             <div class="widget-content">
                                 <ul class="list">
                                     <li><i class="fa fa-phone"></i> +7 (7172) 79 80 30</li>
-                                    <li><i class="flaticon-placeholder"></i> г. Астана, Шоссе Коргалжын, 19,
-                                            Бизнес-центр "Korgalzhyn"</li>
+                                    <li><i class="flaticon-placeholder"></i>@lang('layout.address')</li>
                                     <li><i class="fa fa-envelope"></i> info@helios-soft.kz</li>
                                 </ul>
                             </div>
@@ -184,11 +254,11 @@
 
                     <div class="big-column footer-column col-lg-4">
                         <div class="footer-widget services-widget">
-                            <h2 class="widget-title">Прочее</h2>
+                            <h2 class="widget-title">@lang('layout.more')</h2>
                             <div class="widget-content">
                                 <ul class="list">
-                                    <li><a href="https://help.fvr.kz/">Наш Wiki "Favorit"</a></li>
-                                    <li><a href="https://zp.fvr.kz/">Зарплатный калькулятор</a></li>
+                                    <li><a href="https://help.fvr.kz/">@lang('layout.wiki_favorit')</a></li>
+                                    <li><a href="https://zp.fvr.kz/">@lang('layout.zp_calc')</a></li>
                                     <li><a href="https://www.instagram.com/helios_soft/"><i class="fa fa-instagram"></i> Instagram</a></li>
                                     <li><a href="https://www.instagram.com/helios_soft/"><i class="fa fa-instagram"></i> Youtube</a></li>
                                 </ul>
@@ -203,7 +273,7 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="copyright-text">
-                    <p><a href="#">Helios Soft</a> © 2024 Все права защищены</p>
+                    <p><a href="#">Helios Soft</a> © 2024 @lang('layout.all_rights_reserved')</p>
                 </div>
             </div>
         </div>

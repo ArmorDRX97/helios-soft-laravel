@@ -21,14 +21,11 @@
                     <div class="col-lg-6">
                         <div class="inner-box">
                             <div class="sec-title deep">
-                                <div class="big-title">>О Нас</div>
-                                <h1>Удовлетворенность клиента - миссия нашей компании</h1>
+                                <div class="big-title">@lang('about.section_title')</div>
+                                <h1>@lang('about.mission_statement')</h1>
                             </div>
                             <div class="service-text">
-                                <p>Мы нацелены на создание долгосрочных отношений, основанных на взаимном доверии и
-                                    понимании. Наше стремление не просто поддерживать, а активно развивать
-                                    сотрудничество с клиентами, помогает им достигать высоких результатов в их деловой
-                                    деятельности.</p>
+                                <p>@lang('about.company_description')</p>
                             </div>
                         </div>
                     </div>
@@ -41,20 +38,14 @@
     <section class="our-experience-three sp-two grey-bg">
         <div class="container">
             <div class="sec-title centered deep">
-                <div class="big-title">Услуги</div>
-                <h1>Наши продукты</h1>
+                <div class="big-title">@lang('about.title')</div>
+                <h1>@lang('about.subtitle')</h1>
             </div>
             <div class="text-center mb-80">
                 <div class="text mb-40">
-                    Наша компания — отечественный разработчик учетной системы для образовательных
-                    учреждений. Мы специализируемся на автоматизации учета под ключ, обеспечивая прозрачность,
-                    корректность, доступность и достоверность сведений, а также оперативный контроль и мониторинг
-                    финансово-хозяйственной деятельности в режиме реального времени. Мы не только создаем продукт
-                    высокого
-                    качества и безопасности, но и предоставляем полный цикл обучения и профессиональной поддержки для
-                    наших клиентов.
+                    @lang('about.description')
                 </div>
-                <div class="link-btn"><a href="/contact" class="theme btn-style-one">Связаться с нами</a></div>
+                <div class="link-btn"><a href="/contact" class="theme btn-style-one">@lang('about.contact_button')</a></div>
             </div>
 
             <div class="row">
@@ -63,9 +54,9 @@
                         <div class="icon-box">
                             <span class="flaticon-computer-1"></span>
                         </div>
-                        <h4>ИС "Favorit"</h4>
+                        <h4>@lang('about.favorit.title')</h4>
                         <div class="text">
-                            Единая облачная система планирования, учета и анализа
+                            @lang('about.favorit.description')
                         </div>
                     </a>
                 </div>
@@ -74,9 +65,9 @@
                         <div class="icon-box">
                             <span class="fa fa-calculator"></span>
                         </div>
-                        <h4>Калькулятор</h4>
-                        <div class="text">Зарлпатный калькулятор начальных
-                            и средних образовательных учреждений
+                        <h4>@lang('about.calculator.title')</h4>
+                        <div class="text">
+                            @lang('about.calculator.description')
                         </div>
                     </a>
                 </div>
@@ -85,8 +76,9 @@
                         <div class="icon-box">
                             <span class="flaticon-headphones"></span>
                         </div>
-                        <h4>Youtube Канал "Эксперт Favorit"</h4>
-                        <div class="text">Авторские видеоролики по ИС "Favorit" на двух языках
+                        <h4>@lang('about.youtube_channel.title')</h4>
+                        <div class="text">
+                            @lang('about.youtube_channel.description')
                         </div>
                     </a>
                 </div>
@@ -102,18 +94,11 @@
                     <div class="content-section history-content">
 
                         <div class="sec-title style-two deep">
-                            <div class="big-title">История компании</div>
-                            <h1>Наша история</h1>
+                            <div class="big-title">@lang('about.company_title')</div>
+                            <h1>@lang('about.company_subtitle')</h1>
                         </div>
                         <div class="text mb-80">
-
-                            В 1996 году начало разработки информационной системы "Favorit" было предвестием инноваций в
-                            области технологий и информационных технологий. В тот период команда разработчиков
-                            сфокусировалась на создании уникального продукта, способного эффективно решать широкий
-                            спектр задач, начиная от управления данными и заканчивая оптимизацией бизнес-процессов.
-                            Вплоть до момента запуска, каждый этап разработки преследовал стратегическую цель -
-                            предоставить пользователям мощный инструмент, соответствующий самым высоким стандартам
-                            функциональности и надежности.
+                            @lang('about.company_history')
                         </div>
 
                         <!--Timeline Container-->
@@ -129,10 +114,9 @@
                                         </div>
                                     </div>
                                     <div class="text-content">
-                                        <h4>Старт компании</h4>
+                                        <h4>@lang('about.start_title')</h4>
                                         <div class="text">
-                                            Была представлена первая версия нового программоного продукта ИС "Favorit",
-                                            целью которой является учет административно-хозяйственных операций.
+                                            @lang('about.start_text')
                                         </div>
                                     </div>
                                 </div>
@@ -147,10 +131,9 @@
                                         </div>
                                     </div>
                                     <div class="text-content">
-                                        <h4>Укрепление позиций</h4>
+                                        <h4>@lang('about.position_title')</h4>
                                         <div class="text">
-                                            Широкое применение и использование в подразделениях АО НК "Казахстан Темир
-                                            Жолы"
+                                            @lang('about.position_text')
                                         </div>
                                     </div>
                                 </div>
@@ -165,14 +148,9 @@
                                         </div>
                                     </div>
                                     <div class="text-content">
-                                        <h4>Интеграция</h4>
+                                        <h4>@lang('about.integration_title')</h4>
                                         <div class="text">
-                                            Для обеспечения максимальной гибкости и удобства использования, в ходе
-                                            разработки "Favorit" была успешно реализована функциональность интеграции из
-                                            других информационных систем. Эта инновационная возможность позволяет
-                                            пользователям эффективно взаимодействовать с уже существующими системами,
-                                            обеспечивая беспрецедентный уровень совместимости и обмена данными между
-                                            различными платформами.
+                                            @lang('about.integration_text')
                                         </div>
                                     </div>
                                 </div>
@@ -187,19 +165,9 @@
                                         </div>
                                     </div>
                                     <div class="text-content">
-                                        <h4>Регистрация прав</h4>
+                                        <h4>@lang('about.rights_registration_title')</h4>
                                         <div class="text">
-                                            Для обеспечения юридической защиты объекта авторского права в рамках проекта
-                                            "Favorit" была проведена процедура регистрации прав на соответствующий
-                                            интеллектуальный продукт.
-                                        </div>
-                                        <br>
-                                        <div class="text">
-                                            С получением прав на объект авторского права открылись возможности для
-                                            коммерческого использования продукта. Коммерческое использование продукта
-                                            способствовало не только
-                                            развитию самой информационной системы, но и поддерживала экономический рост
-                                            через предоставление эффективных решений для бизнес-сообщества.
+                                            @lang('about.rights_registration_text')
                                         </div>
                                     </div>
                                 </div>
@@ -214,13 +182,9 @@
                                         </div>
                                     </div>
                                     <div class="text-content">
-                                        <h4>Сертификация</h4>
+                                        <h4>@lang('about.certification_title')</h4>
                                         <div class="text">
-                                            Важным этапом в разработке информационной системы "Favorit" было получение
-                                            сертификата соответствия требованиям информационной безопасности. Этот
-                                            сертификат подтверждает, что система была создана и функционирует с
-                                            соблюдением высочайших стандартов безопасности, обеспечивая надежную защиту
-                                            конфиденциальных данных и эффективное управление рисками в цифровой среде.
+                                            @lang('about.certification_text')
                                         </div>
                                     </div>
                                 </div>
@@ -235,15 +199,9 @@
                                         </div>
                                     </div>
                                     <div class="text-content">
-                                        <h4>Реестр</h4>
+                                        <h4>@lang('about.registry_title')</h4>
                                         <div class="text">
-                                            Был запущен проект <b>"Облачная система учета и планирования
-                                                административно-хозяйственной деятельности для государственных
-                                                организаций".</b>
-                                            <br>
-                                            <br>
-                                            ИС "Favorit" была включена в <b>"Реестр доверенной продукции электронной
-                                                промышленности и программного обеспечения Республики Казахстан"</b>
+                                            @lang('about.registry_text')
                                         </div>
                                     </div>
                                 </div>
@@ -258,18 +216,13 @@
                                         </div>
                                     </div>
                                     <div class="text-content">
-                                        <h4>Индустриальный сертификат</h4>
+                                        <h4>@lang('about.industrial_certificate_title')</h4>
                                         <div class="text">
-                                            Получение индустриального сертификата является значимым достижением в
-                                            развитии информационной системы "Favorit". Этот сертификат подтверждает
-                                            соответствие продукта промышленным стандартам и требованиям, что является
-                                            важным подтверждением его высокого качества, надежности и соответствия
-                                            стандартам отрасли.
+                                            @lang('about.industrial_certificate_text')
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
 
                             <!--Timeline Block-->
                             <div class="timeline-block">
@@ -280,11 +233,9 @@
                                         </div>
                                     </div>
                                     <div class="text-content">
-                                        <h4>Повторная сертификация</h4>
+                                        <h4>@lang('about.recertification_title')</h4>
                                         <div class="text">
-                                            Повтрно подтвержден уровень надежности и безопасности ИС "Favorit". Успешна пройдена
-                                            ресертификацию по информационной безопасности согласно требований ISO/IEC
-                                            15408-3-2017 по наивысшему уровню доверия (ОУД 5).
+                                            @lang('about.recertification_text')
                                         </div>
                                     </div>
                                 </div>
@@ -293,18 +244,6 @@
 
                     </div>
                 </div>
-                {{--                <div class="col-lg-4">--}}
-                {{--                    <div class="request-callback">--}}
-                {{--                        <div class="inner-box">--}}
-                {{--                            <h4>Оставьте заявку на обратный звонок</h4>--}}
-                {{--                            <div class="text">Оставьте вашу заявку, и мы свяжемся с вами в ближайшее время. Наши--}}
-                {{--                                специалисты готовы помочь вам.--}}
-                {{--                            </div>--}}
-                {{--                            <div class="phone-number"><span class="flaticon-headphones"></span>+7 (999) 999 99-99</div>--}}
-                {{--                            <div class="link-btn"><a href="#" class="theem-btn btn-style-one">Свяжитесь с нами</a></div>--}}
-                {{--                        </div>--}}
-                {{--                    </div>--}}
-                {{--                </div>--}}
             </div>
         </div>
     </section>
@@ -314,7 +253,7 @@
     <section class="our-team sp-two">
         <div class="container">
             <div class="sec-title style-two centered deep">
-                <h1>Руководство компании</h1>
+                <h1>@lang('about.leadership_title')</h1>
             </div>
             <div class="row">
                 <div class="team-block-one col-lg-3 col-md-6">
@@ -323,8 +262,8 @@
                             <img src="front/images/team/team1.jpg" alt="">
                         </div>
                         <div class="lower-box">
-                            <h4><a href="#">Бутумбаев Серик</a></h4>
-                            <div class="designation">Директор</div>
+                            <h4><a href="#">@lang('about.leader1_name')</a></h4>
+                            <div class="designation">@lang('about.leader1_position')</div>
                         </div>
                     </div>
                 </div>
@@ -334,8 +273,8 @@
                             <img src="front/images/team/team3.jpg" alt="">
                         </div>
                         <div class="lower-box">
-                            <h4><a href="#">Андрей Николаевич</a></h4>
-                            <div class="designation">Заместитель директора</div>
+                            <h4><a href="#">@lang('about.leader2_name')</a></h4>
+                            <div class="designation">@lang('about.leader2_position')</div>
                         </div>
                     </div>
                 </div>
@@ -345,8 +284,8 @@
                             <img src="front/images/team/team2.jpg" alt="">
                         </div>
                         <div class="lower-box">
-                            <h4><a href="#">Четтыкбаевна Шолпан</a></h4>
-                            <div class="designation">Заместитель директора по развитию</div>
+                            <h4><a href="#">@lang('about.leader3_name')</a></h4>
+                            <div class="designation">@lang('about.leader3_position')</div>
                         </div>
                     </div>
                 </div>
@@ -356,12 +295,13 @@
                             <img src="front/images/team/team4.jpg" alt="">
                         </div>
                         <div class="lower-box">
-                            <h4><a href="#">Нурпеисов Даурен</a></h4>
-                            <div class="designation">Исполнительный директор</div>
+                            <h4><a href="#">@lang('about.leader4_name')</a></h4>
+                            <div class="designation">@lang('about.leader4_position')</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 @endsection

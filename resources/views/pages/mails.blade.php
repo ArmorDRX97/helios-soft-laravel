@@ -5,7 +5,7 @@
     <section class="page-title" style="background-image:url(front/images/background/3.jpg)">
         <div class="container">
             <div class="outer-box">
-                <h1>Благодарственные письма</h1>
+                <h1>@lang('layout.bl_pisma')</h1>
             </div>
         </div>
     </section>

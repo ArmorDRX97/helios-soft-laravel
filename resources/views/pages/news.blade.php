@@ -5,7 +5,7 @@
     <section class="page-title" style="background-image:url(front/images/background/3.jpg)">
         <div class="container">
             <div class="outer-box">
-                <h1>Новости</h1>
+                <h1>@lang('layout.news')</h1>
             </div>
         </div>
     </section>
@@ -13,143 +13,121 @@
     <section class="blog-section sp-two">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-12">
                     <div class="row">
                         <!-- news block two -->
-                        <div class="col-md-6 news-block-two">
+                        <div class="col-12 col-md-4 news-block-two">
                             <div class="inner-box hvr-float-shadow">
                                 <div class="image">
                                     <img src="front/images/resource/news-2.jpg" alt="">
                                     <div class="overlay">
-                                        <a class="link-btn" href="/new-one">
+                                        <a class="link-btn" href="/new-taxes-change">
                                             <i class="fa fa-link"></i>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="category"><a href="#">Новость</a></div>
-                                    <h4><a href="/new-one">Заголовок новости</a></h4>
+                                    <h4><a href="/new-taxes-change">Налоги, исчесление налогов меняется с 2024</a></h4>
                                     <ul class="post-meta">
-                                        <li><span>02.11.2023 14:55</span></li>
+                                        <li><span>03.01.2024 13:48</span></li>
                                     </ul>
-                                    <div class="text">Краткое описание новости, которое описвает в кратце новость, где сказано коротко про новость</div>
-                                    <div class="link-btn"><a href="/new-one" class="read-more-btn">Читать <span class="fa fa-long-arrow-right"></span></a></div>
+                                    <div class="text">Минимальный размер заработной платы, Месячный расчетный показатель, Минимальный размер...</div>
+                                    <div class="link-btn"><a href="/new-taxes-change" class="read-more-btn">@lang('index.read_more') <span class="fa fa-long-arrow-right"></span></a></div>
                                 </div>
                             </div>
                         </div>
                         <!-- news block two -->
-                        <div class="col-md-6 news-block-two">
+                        <div class="col-12 col-md-4 news-block-two">
                             <div class="inner-box hvr-float-shadow">
                                 <div class="image">
                                     <img src="front/images/resource/news-3.jpg" alt="">
                                     <div class="overlay">
-                                        <a class="link-btn" href="/new-one">
+                                        <a class="link-btn" href="/new-successful-implementation-completed">
                                             <i class="fa fa-link"></i>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="category"><a href="#">Новость</a></div>
-                                    <h4><a href="/new-one">Заголовок новости</a></h4>
+                                    <h4><a href="/new-successful-implementation-completed">Антикор Туркестан, Павлодар, Акмола</a></h4>
                                     <ul class="post-meta">
-                                        <li><span>02.11.2023 14:55</span></li>
+                                        <li><span>29.12.2023 12:37</span></li>
                                     </ul>
-                                    <div class="text">Краткое описание новости, которое описвает в кратце новость, где сказано коротко про новость</div>
-                                    <div class="link-btn"><a href="/new-one" class="read-more-btn">Читать <span class="fa fa-long-arrow-right"></span></a></div>
+                                    <div class="text">Завершилась успешная реализация пилотных проектов в сфере образования Туркестанской ...</div>
+                                    <div class="link-btn"><a href="/new-successful-implementation-completed" class="read-more-btn">@lang('index.read_more') <span class="fa fa-long-arrow-right"></span></a></div>
                                 </div>
                             </div>
                         </div>
                         <!-- news block two -->
-                        <div class="col-md-6 news-block-two">
+                        <div class="col-12 col-md-4 news-block-two">
                             <div class="inner-box hvr-float-shadow">
                                 <div class="image">
                                     <img src="front/images/resource/news-4.jpg" alt="">
                                     <div class="overlay">
-                                        <a class="link-btn" href="/new-one">
+                                        <a class="link-btn" href="/new-open-taldyqorgan">
                                             <i class="fa fa-link"></i>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="category"><a href="#">Новость</a></div>
-                                    <h4><a href="/new-one">Заголовок новости</a></h4>
+                                    <h4><a href="/new-open-taldyqorgan">Талдыкорган открылся</a></h4>
                                     <ul class="post-meta">
-                                        <li><span>02.11.2023 14:55</span></li>
+                                        <li><span>02.12.2023 09:20</span></li>
                                     </ul>
-                                    <div class="text">Краткое описание новости, которое описвает в кратце новость, где сказано коротко про новость</div>
-                                    <div class="link-btn"><a href="/new-one" class="read-more-btn">Читать <span class="fa fa-long-arrow-right"></span></a></div>
+                                    <div class="text">Новый Этап: Открытие Контакт-Центра "Helios Soft" в Талдыкоргане</div>
+                                    <div class="link-btn"><a href="/new-open-taldyqorgan" class="read-more-btn">@lang('index.read_more') <span class="fa fa-long-arrow-right"></span></a></div>
                                 </div>
                             </div>
                         </div>
                         <!-- news block two -->
-                        <div class="col-md-6 news-block-two">
+                        <div class="col-12 col-md-4 news-block-two">
                             <div class="inner-box hvr-float-shadow">
                                 <div class="image">
                                     <img src="front/images/resource/news-5.jpg" alt="">
                                     <div class="overlay">
-                                        <a class="link-btn" href="/new-one">
+                                        <a class="link-btn" href="/new-digitalization">
                                             <i class="fa fa-link"></i>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="category"><a href="#">Новость</a></div>
-                                    <h4><a href="/new-one">Заголовок новости</a></h4>
+                                    <h4><a href="/new-digitalization">Цифрландырушы</a></h4>
                                     <ul class="post-meta">
-                                        <li><span>02.11.2023 14:55</span></li>
+                                        <li><span>10.11.2023 10:23</span></li>
                                     </ul>
-                                    <div class="text">Краткое описание новости, которое описвает в кратце новость, где сказано коротко про новость</div>
-                                    <div class="link-btn"><a href="/new-one" class="read-more-btn">Читать <span class="fa fa-long-arrow-right"></span></a></div>
+                                    <div class="text">Ко дню цифровизации и информационных технологий за профессионализм и вклад в развитие цифровизации ...</div>
+                                    <div class="link-btn"><a href="/new-digitalization" class="read-more-btn">@lang('index.read_more') <span class="fa fa-long-arrow-right"></span></a></div>
                                 </div>
                             </div>
                         </div>
                         <!-- news block two -->
-                        <div class="col-md-6 news-block-two">
+                        <div class="col-12 col-md-4 news-block-two">
                             <div class="inner-box hvr-float-shadow">
                                 <div class="image">
-                                    <img src="front/images/resource/news-6.jpg" alt="">
+                                    <img src="front/images/news/new-resertification.jpg" alt="">
                                     <div class="overlay">
-                                        <a class="link-btn" href="/new-one">
+                                        <a class="link-btn" href="/new-resertification">
                                             <i class="fa fa-link"></i>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="category"><a href="#">Новость</a></div>
-                                    <h4><a href="/new-one">Заголовок новости</a></h4>
+                                    <h4><a href="/new-resertification">Успешная ресертификация</a></h4>
                                     <ul class="post-meta">
-                                        <li><span>02.11.2023 14:55</span></li>
+                                        <li><span>27.09.2023 09:45</span></li>
                                     </ul>
-                                    <div class="text">Краткое описание новости, которое описвает в кратце новость, где сказано коротко про новость</div>
-                                    <div class="link-btn"><a href="/new-one" class="read-more-btn">Читать <span class="fa fa-long-arrow-right"></span></a></div>
+                                    <div class="text">Система учета "Favorit" продолжает подтверждать свой высокий уровень надежности и безопасности.</div>
+                                    <div class="link-btn"><a href="/new-resertification" class="read-more-btn">@lang('index.read_more') <span class="fa fa-long-arrow-right"></span></a></div>
                                 </div>
                             </div>
                         </div>
-                        <!-- news block two -->
-                        <div class="col-md-6 news-block-two">
-                            <div class="inner-box hvr-float-shadow">
-                                <div class="image">
-                                    <img src="front/images/resource/news-7.jpg" alt="">
-                                    <div class="overlay">
-                                        <a class="link-btn" href="/new-one">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="lower-content">
-                                    <div class="category"><a href="#">Новость</a></div>
-                                    <h4><a href="/new-one">Заголовок новости</a></h4>
-                                    <ul class="post-meta">
-                                        <li><span>02.11.2023 14:55</span></li>
-                                    </ul>
-                                    <div class="text">Краткое описание новости, которое описвает в кратце новость, где сказано коротко про новость</div>
-                                    <div class="link-btn"><a href="/new-one" class="read-more-btn">Читать <span class="fa fa-long-arrow-right"></span></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end -->
                     </div>
                 </div>
+                <!--
                 <div class="col-lg-4">
                     <aside class="sidebar">
 
@@ -196,7 +174,6 @@
                                 <div class="text"><a href="/new-one">Выборы в Казахстане. Кто выйграл?</a></div>
                                 <div class="post-info"><span>01.11.2023 15:44</span></div>
                             </div>
-                            <!-- end -->
                         </div>
                         <div class="sidebar-widget tag-widget">
                             <div class="sidebar-title">
@@ -209,9 +186,9 @@
                             <a href="#">Развитие</a>
                             <a href="#">Цифровизация</a>
                         </div>
-                        <!-- end -->
                     </aside>
                 </div>
+        -->
             </div>
         </div>
     </section>
