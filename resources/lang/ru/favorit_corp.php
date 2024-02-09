@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'specialist' => 'Для специалистов',
+    'rukovoditeli' => 'Для руководителей',
     'erp_system_favorit' => 'ERP-СИСТЕМА FAVORIT',
     'efficient_planning_and_accounting' => 'Эффективное планирование и учет, строгий контроль и глубокий анализ деятельности компании',
     'download' => 'Скачать',

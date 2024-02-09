@@ -27,7 +27,7 @@
                                     </div>
                                 </div>
                                 <div class="lower-content">
-                                    <div class="category"><a href="#">Новость</a></div>
+                                    <div class="category" style="display: none;"><a href="#">Новость</a></div>
                                     <h4><a href="/new-taxes-change">Налоги, исчесление налогов меняется с 2024</a></h4>
                                     <ul class="post-meta">
                                         <li><span>03.01.2024 13:48</span></li>
@@ -49,7 +49,7 @@
                                     </div>
                                 </div>
                                 <div class="lower-content">
-                                    <div class="category"><a href="#">Новость</a></div>
+                                    <div class="category" style="display: none;"><a href="#">Новость</a></div>
                                     <h4><a href="/new-successful-implementation-completed">Антикор Туркестан, Павлодар, Акмола</a></h4>
                                     <ul class="post-meta">
                                         <li><span>29.12.2023 12:37</span></li>
@@ -71,7 +71,7 @@
                                     </div>
                                 </div>
                                 <div class="lower-content">
-                                    <div class="category"><a href="#">Новость</a></div>
+                                    <div class="category" style="display: none;"><a href="#">Новость</a></div>
                                     <h4><a href="/new-open-taldyqorgan">Талдыкорган открылся</a></h4>
                                     <ul class="post-meta">
                                         <li><span>02.12.2023 09:20</span></li>
@@ -93,8 +93,8 @@
                                     </div>
                                 </div>
                                 <div class="lower-content">
-                                    <div class="category"><a href="#">Новость</a></div>
-                                    <h4><a href="/new-digitalization">Цифрландырушы</a></h4>
+                                    <div class="category" style="display: none;"><a href="#">Новость</a></div>
+                                    <h4><a href="/new-digitalization">Номинация "Үздік цифрландырушы"</a></h4>
                                     <ul class="post-meta">
                                         <li><span>10.11.2023 10:23</span></li>
                                     </ul>
@@ -115,7 +115,7 @@
                                     </div>
                                 </div>
                                 <div class="lower-content">
-                                    <div class="category"><a href="#">Новость</a></div>
+                                    <div class="category" style="display: none;"><a href="#">Новость</a></div>
                                     <h4><a href="/new-resertification">Успешная ресертификация</a></h4>
                                     <ul class="post-meta">
                                         <li><span>27.09.2023 09:45</span></li>

@@ -25,7 +25,7 @@
 
     <header class="main-header">
         <!--Header-Upper-->
-        <div class="header-upper style-six">
+        <div class="header-upper style-six @if(app()->getLocale() == 'kz') v-kz @endif">
             <div class="container">
                 <div class="box-menu-bg clearfix">
 
@@ -55,7 +55,7 @@
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
 
-                                        <li><a href="/">@lang('layout.main')</a></li>
+{{--                                        <li><a href="/">@lang('layout.main')</a></li>--}}
                                         <li><a href="/about">@lang('layout.about')</a></li>
                                         <li class="dropdown"><a href="#">@lang('layout.products')</a>
                                             <ul style="display: none;">
@@ -89,8 +89,8 @@
                                                     RU <img src="front/images/langs/ru.png" alt="ru">
                                                 @elseif(app()->getLocale() == 'kz')
                                                     KZ <img src="front/images/langs/kz.png" alt="kz">
-                                                @elseif(app()->getLocale() == 'en')
-                                                    EN <img src="front/images/langs/en.png" alt="en">
+{{--                                                @elseif(app()->getLocale() == 'en')--}}
+{{--                                                    EN <img src="front/images/langs/en.png" alt="en">--}}
                                                 @endif
                                             </a>
                                             <ul class="c-right" style="display: none;">
@@ -108,13 +108,13 @@
                                                         </a>
                                                     @endif
                                                 </li>
-                                                <li>
-                                                    @if(app()->getLocale() !== 'en')
-                                                        <a class="lang-item" href="{{ route('setlocale', 'en') }}">
-                                                            <span>EN</span><img src="front/images/langs/en.png" alt="en">
-                                                        </a>
-                                                    @endif
-                                                </li>
+{{--                                                <li>--}}
+{{--                                                    @if(app()->getLocale() !== 'en')--}}
+{{--                                                        <a class="lang-item" href="{{ route('setlocale', 'en') }}">--}}
+{{--                                                            <span>EN</span><img src="front/images/langs/en.png" alt="en">--}}
+{{--                                                        </a>--}}
+{{--                                                    @endif--}}
+{{--                                                </li>--}}
                                             </ul>
                                             <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                         </li>
@@ -129,7 +129,7 @@
             </div>
         </div>
         <!--End Header Upper-->
-        <div class="sticky-header">
+        <div class="sticky-header @if(app()->getLocale() == 'kz') v-kz @endif">
             <div class="mobile-menu-overlay"></div>
 
             <div class="container clearfix">
@@ -146,7 +146,7 @@
                     <nav class="main-menu navbar-expand-lg">
                         <div class="navbar-collapse clearfix">
                             <ul class="navigation clearfix">
-                                <li><a href="/">@lang('layout.main')</a></li>
+{{--                                <li><a href="/">@lang('layout.main')</a></li>--}}
                                 <li><a href="/about">@lang('layout.about')</a></li>
                                 <li class="dropdown"><a href="#">@lang('layout.products')</a>
                                     <ul style="display: none;">
@@ -178,8 +178,8 @@
                                             RU <img src="front/images/langs/ru.png" alt="ru">
                                         @elseif(app()->getLocale() == 'kz')
                                             KZ <img src="front/images/langs/kz.png" alt="kz">
-                                        @elseif(app()->getLocale() == 'en')
-                                            EN <img src="front/images/langs/en.png" alt="en">
+{{--                                        @elseif(app()->getLocale() == 'en')--}}
+{{--                                            EN <img src="front/images/langs/en.png" alt="en">--}}
                                         @endif
                                     </a>
                                     <ul class="c-right" style="display: none;">
@@ -197,13 +197,13 @@
                                                 </a>
                                             @endif
                                         </li>
-                                        <li>
-                                            @if(app()->getLocale() !== 'en')
-                                                <a class="lang-item" href="{{ route('setlocale', 'en') }}">
-                                                    <span>EN</span><img src="front/images/langs/en.png" alt="en">
-                                                </a>
-                                            @endif
-                                        </li>
+{{--                                        <li>--}}
+{{--                                            @if(app()->getLocale() !== 'en')--}}
+{{--                                                <a class="lang-item" href="{{ route('setlocale', 'en') }}">--}}
+{{--                                                    <span>EN</span><img src="front/images/langs/en.png" alt="en">--}}
+{{--                                                </a>--}}
+{{--                                            @endif--}}
+{{--                                        </li>--}}
                                     </ul>
                                     <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                 </li>
@@ -217,6 +217,17 @@
     </header>
 
     @yield('content')
+
+    <div class="pre-footer">
+        <div class="container">
+           <div>
+               <a href="#!" class="theme-btn btn-style-seven"><i class="fa fa-download mr-3"></i> Скачать информационную систему "Favorit"</a>
+           </div>
+            <div class="text text-muted">
+
+            </div>
+        </div>
+    </div>
 
     <footer class="main-footer">
         <div class="container">

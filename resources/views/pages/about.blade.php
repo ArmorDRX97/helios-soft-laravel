@@ -5,7 +5,7 @@
     <section class="page-title" style="background-image:url(front/images/background/3.jpg)">
         <div class="container">
             <div class="outer-box">
-                <h1>О компании</h1>
+                <h1>@lang('about.about_company')</h1>
             </div>
         </div>
     </section>
@@ -22,7 +22,8 @@
                         <div class="inner-box">
                             <div class="sec-title deep">
                                 <div class="big-title">@lang('about.section_title')</div>
-                                <h1>@lang('about.mission_statement')</h1>
+                                <h1>@lang('about.mission_statement_main')</h1>
+                                <h4>@lang('about.mission_statement')</h4>
                             </div>
                             <div class="service-text">
                                 <p>@lang('about.company_description')</p>

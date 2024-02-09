@@ -22,63 +22,63 @@
                 <p class="mt-2">@lang('favorit_support.improvement_message')</p>
             </div>
             <div class="row">
-                <div class="service-block-six about-page col-lg-4 col-md-6">
-                    <div class="inner-box hvr-bounce-to-bottom">
-                        <div class="icon-box">
-                            <span class="flaticon-user"></span>
-                        </div>
-                        <h4 style="height: auto;">@lang('favorit_support.effective_feedback')</h4>
-                        <div class="text">
-                            @lang('favorit_support.feedback_description')
-                        </div>
-
-                    </div>
-                </div>
-                <div class="service-block-six about-page col-lg-4 col-md-6">
-                    <div class="inner-box hvr-bounce-to-bottom">
-                        <div class="icon-box">
-                            <span class="flaticon-process"></span>
-                        </div>
-                        <h4 style="height: auto;">@lang('favorit_support.call_monitoring')</h4>
-                        <div class="text">
-                            @lang('favorit_support.call_analysis_description')
-                        </div>
-                    </div>
-                </div>
-                <div class="service-block-six about-page col-lg-4 col-md-6">
-                    <div class="inner-box hvr-bounce-to-bottom">
-                        <div class="icon-box">
-                            <span class="flaticon-people"></span>
-                        </div>
-                        <h4 style="height: auto;">@lang('favorit_support.call_evaluation')</h4>
-                        <div class="text">
-                            @lang('favorit_support.call_evaluation_description')
-                        </div>
-                    </div>
-                </div>
-                <div class="service-block-six about-page col-lg-4 col-md-6 offset-lg-2">
-                    <div class="inner-box hvr-bounce-to-bottom">
-                        <div class="icon-box">
-                            <span class="flaticon-transport"></span>
-                        </div>
-                        <h4 style="height: auto;">@lang('favorit_support.continuous_improvement')</h4>
-                        <div class="text">
-                            @lang('favorit_support.improvement_process_description')
-                        </div>
-                    </div>
-                </div>
-                <div class="service-block-six about-page col-lg-4 col-md-6">
-                    <div class="inner-box hvr-bounce-to-bottom">
-                        <div class="icon-box">
-                            <span class="flaticon-map-1"></span>
-                        </div>
-                        <h4 style="height: auto;">@lang('favorit_support.regional_distribution')</h4>
-                        <div class="text">
-                            @lang('favorit_support.regional_distribution_description')
-                        </div>
-
-                    </div>
-                </div>
+             <div class="col-12 col-xl-10 offset-xl-1">
+                 <div class="service-favorit-block">
+                     <div class="sv-img">
+                         <img src="front/images/services/sv1.jpg" alt="image">
+                     </div>
+                     <div class="sv-content">
+                         <h4>@lang('favorit_support.effective_feedback')</h4>
+                         <div class="text">
+                             @lang('favorit_support.feedback_description')
+                         </div>
+                     </div>
+                 </div>
+                 <div class="service-favorit-block text-right m-flex-reverse">
+                     <div class="sv-content">
+                         <h4>@lang('favorit_support.call_monitoring')</h4>
+                         <div class="text">
+                             @lang('favorit_support.call_analysis_description')
+                         </div>
+                     </div>
+                     <div class="sv-img">
+                         <img src="front/images/services/sv2.jpg" alt="image">
+                     </div>
+                 </div>
+                 <div class="service-favorit-block">
+                     <div class="sv-img">
+                         <img src="front/images/services/sv3.jpg" alt="image">
+                     </div>
+                     <div class="sv-content">
+                         <h4>@lang('favorit_support.call_evaluation')</h4>
+                         <div class="text">
+                             @lang('favorit_support.call_evaluation_description')
+                         </div>
+                     </div>
+                 </div>
+                 <div class="service-favorit-block text-right m-flex-reverse">
+                     <div class="sv-content">
+                         <h4>@lang('favorit_support.continuous_improvement')</h4>
+                         <div class="text">
+                             @lang('favorit_support.improvement_process_description')
+                         </div>
+                     </div>
+                     <div class="sv-img">
+                         <img src="front/images/services/sv4.jpg" alt="image">
+                     </div>
+                 </div>
+                 <div class="service-favorit-block">
+                     <div class="sv-img">
+                         <img src="front/images/services/sv5.jpg" alt="image">
+                     </div>
+                     <div class="sv-content">
+                         <h4>@lang('favorit_support.regional_distribution')</h4>
+                         <div class="text">
+                             @lang('favorit_support.regional_distribution_description')
+                         </div>
+                     </div>
+                 </div>
+             </div>
             </div>
         </div>
     </section>

@@ -47,8 +47,8 @@
         <div class="tab-box">
             <div class="container">
                 <ul class="tab-list text-center">
-                    <li><a href="#tab-one" class="active-btn tab-btn">Для специалистов</a></li>
-                    <li><a href="#tab-two" class="tab-btn">Для руководителя</a></li>
+                    <li><a href="#tab-one" class="active-btn tab-btn">@lang('favorit_corp.specialist')</a></li>
+                    <li><a href="#tab-two" class="tab-btn">@lang('favorit_corp.rukovoditeli')</a></li>
                 </ul>
             </div>
             <div class="tab-content">

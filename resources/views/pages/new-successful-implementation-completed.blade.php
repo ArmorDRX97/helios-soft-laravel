@@ -6,7 +6,7 @@
         <div class="container">
             <div class="outer-box">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="/news"><span class="fa fa-newspaper-o"></span>Новости</a></li>
+                    <li><a href="/news"><span class="fa fa-newspaper-o"></span>@lang('layout.news')</a></li>
                     <li class="active">Антикор Туркестан, Павлодар, Акмола
                     </li>
                 </ul>

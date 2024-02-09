@@ -60,7 +60,6 @@
         <div class="container">
             <!-- sec tietle -->
             <div class="sec-title centered style-two deep">
-                <div class="big-title">@lang('favorit_education.capabilities_title')</div>
                 <h1>@lang('favorit_education.functional_capabilities_title')</h1>
                 <p class="subtitle">@lang('favorit_education.functional_capabilities_subtitle')</p>
             </div>

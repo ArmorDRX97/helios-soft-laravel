@@ -113,7 +113,7 @@
                     </div>
                     <div class="text">
                         <p class="m-0">@lang('calc.general_telegram_chat')</p>
-                        <p class="text-muted">@lang('calc.all_discussions_are_recommendatory')</p>
+                        <p class="text-muted">"@lang('calc.all_discussions_are_recommendatory')"</p>
                     </div>
 
                     <a href="https://t.me/+m7KaH3N-tc0zMzJi" target="_blank" class="btn btn-success btn-lg">@lang('calc.join')</a>

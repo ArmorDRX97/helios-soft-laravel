@@ -225,7 +225,7 @@
         items:1,
         active: true,
         smartSpeed: 1000,
-        autoplay: 7000,
+        autoplay: false,
         navText: [ '<span class="flaticon-left-arrow-1"></span>', '<span class="flaticon-right-arrow"></span>' ],
     })
 

@@ -6,7 +6,7 @@
         <div class="container">
             <div class="outer-box">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="/news"><span class="fa fa-newspaper-o"></span>Новости</a></li>
+                    <li><a href="/news"><span class="fa fa-newspaper-o"></span>@lang('layout.news')</a></li>
                     <li class="active">Ко дню цифровизации и информационных технологий за профессионализм и вклад ...
                     </li>
                 </ul>
@@ -24,7 +24,7 @@
                                 <img src="front/images/resource/news-16.jpg" alt="">
                             </div>
                             <div class="lower-content">
-                                <h1>Цифрландырушы</h1>
+                                <h1>Номинация "Үздік цифрландырушы"</h1>
                                 <div class="text">
                                     Ко дню цифровизации и информационных технологий за профессионализм и вклад в
                                     развитие цифровизации Республики Казахстан приказом Министра Цифрового развития и

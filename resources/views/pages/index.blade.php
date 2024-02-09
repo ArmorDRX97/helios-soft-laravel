@@ -55,16 +55,14 @@
                         <div class="lower-content">
                             <div class="new-image">
                                 <img src="front/images/resource/news-2.jpg" alt="image" class="w-100">
-                                <div class="category"><a href="#">Цифровизация</a></div>
                             </div>
-                            <h4><a href="/new-one">Нападение на Казахстан высоких налогов</a></h4>
+                            <h4><a href="/new-taxes-change">Налоги, исчесление налогов меняется с 2024</a></h4>
                             <ul class="post-meta">
-                                <li><span>2 ноября, 2023</span></li>
+                                <li><span>03.01.2024 13:48</span></li>
                             </ul>
-                            <div class="text">В скором времени на Казахстан обрушится шквал из повышения налогов на все
-                                сферы деятельности
+                            <div class="text">Минимальный размер заработной платы, Месячный расчетный показатель, Минимальный размер...
                             </div>
-                            <div class="link-btn"><a href="/new-one" class="read-more-btn">@lang('index.read_more') <span
+                            <div class="link-btn"><a href="/new-taxes-change" class="read-more-btn">@lang('index.read_more') <span
                                         class="fa fa-long-arrow-right"></span></a></div>
                         </div>
                     </div>
@@ -74,16 +72,14 @@
                         <div class="lower-content">
                             <div class="new-image">
                                 <img src="front/images/resource/news-2.jpg" alt="image" class="w-100">
-                                <div class="category"><a href="#">Цифровизация</a></div>
                             </div>
-                            <h4><a href="/new-one">Нападение на Казахстан высоких налогов</a></h4>
+                            <h4><a href="/new-successful-implementation-completed">Антикор Туркестан, Павлодар, Акмола</a></h4>
                             <ul class="post-meta">
-                                <li><span>2 ноября, 2023</span></li>
+                                <li><span>29.12.2023 12:37</span></li>
                             </ul>
-                            <div class="text">В скором времени на Казахстан обрушится шквал из повышения налогов на все
-                                сферы деятельности
+                            <div class="text">Завершилась успешная реализация пилотных проектов в сфере образования Туркестанской ...
                             </div>
-                            <div class="link-btn"><a href="/new-one" class="read-more-btn">@lang('index.read_more') <span
+                            <div class="link-btn"><a href="/new-successful-implementation-completed" class="read-more-btn">@lang('index.read_more') <span
                                         class="fa fa-long-arrow-right"></span></a></div>
                         </div>
                     </div>
@@ -93,16 +89,14 @@
                         <div class="lower-content">
                             <div class="new-image">
                                 <img src="front/images/resource/news-2.jpg" alt="image" class="w-100">
-                                <div class="category"><a href="#">Цифровизация</a></div>
                             </div>
-                            <h4><a href="/new-one">Нападение на Казахстан высоких налогов</a></h4>
+                            <h4><a href="/new-open-taldyqorgan">Талдыкорган открылся</a></h4>
                             <ul class="post-meta">
-                                <li><span>2 ноября, 2023</span></li>
+                                <li><span>02.12.2023 09:20</span></li>
                             </ul>
-                            <div class="text">В скором времени на Казахстан обрушится шквал из повышения налогов на все
-                                сферы деятельности
+                            <div class="text">Новый Этап: Открытие Контакт-Центра "Helios Soft" в Талдыкоргане
                             </div>
-                            <div class="link-btn"><a href="/new-one" class="read-more-btn">@lang('index.read_more') <span
+                            <div class="link-btn"><a href="/new-open-taldyqorgan" class="read-more-btn">@lang('index.read_more') <span
                                         class="fa fa-long-arrow-right"></span></a></div>
                         </div>
                     </div>
@@ -200,7 +194,7 @@
                                     <div class="service-block-two">
                                         <div class="inner-box">
                                             <div class="icon-box"><span class="icon flaticon-user"></span></div>
-                                            <h4><a href="#">@lang('index.bolee') <span class="count-outer count-box">
+                                            <h4><a href="#">@lang('index.bolee1') <span class="count-outer count-box">
                                                         <span data-stop="200" class="count-text c-main" data-speed="3000"></span>
                                                     </span> @lang('index.sotrudnikov')</a></h4>
                                             <div class="service-text">
@@ -211,7 +205,7 @@
                                     <div class="service-block-two">
                                         <div class="inner-box">
                                             <div class="icon-box"><span class="icon flaticon-profile"></span></div>
-                                            <h4><a href="#">@lang('index.bolee')
+                                            <h4><a href="#">@lang('index.bolee2')
                                                     <span class="count-outer count-box">
                                                         <span data-stop="4500" class="count-text c-main" data-speed="3000"></span>
                                                     </span>
@@ -225,7 +219,7 @@
                                     <div class="service-block-two">
                                         <div class="inner-box">
                                             <div class="icon-box"><span class="icon flaticon-cup-1"></span></div>
-                                            <h4><a href="#">@lang('index.bolee')
+                                            <h4><a href="#">@lang('index.bolee3')
                                                     <span class="count-outer count-box">
                                                         <span data-stop="2000" class="count-text c-main" data-speed="3000"></span>
                                                     </span>

@@ -2,7 +2,7 @@
 
 return [
     'free' => 'Бесплатный',
-    'credit_calculator' => 'Кредитный калькулятор',
+    'credit_calculator' => 'Зарплатный калькулятор',
     'most_accurate_and_reliable_salary_calculator' => 'Самый точный и надежный зарплатный калькулятор для педагогов по всему Казахстану',
     'try_now' => 'Попробовать',
     'salary' => 'Зарплата',
