@@ -21,7 +21,7 @@
                     <div class="news-block-three">
                         <div class="inner-box">
                             <div class="image">
-                                <img src="front/images/resource/news-16.jpg" alt="">
+                                <img src="front/images/resource/news-4.jpg" alt="">
                             </div>
                             <div class="lower-content">
                                 <h1>Талдыкорган открылся</h1>

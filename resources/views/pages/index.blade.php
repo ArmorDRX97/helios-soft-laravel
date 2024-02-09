@@ -71,7 +71,7 @@
                     <div class="inner-box hvr-float-shadow">
                         <div class="lower-content">
                             <div class="new-image">
-                                <img src="front/images/resource/news-2.jpg" alt="image" class="w-100">
+                                <img src="front/images/resource/news-3.jpg" alt="image" class="w-100">
                             </div>
                             <h4><a href="/new-successful-implementation-completed">Антикор Туркестан, Павлодар, Акмола</a></h4>
                             <ul class="post-meta">
@@ -88,7 +88,7 @@
                     <div class="inner-box hvr-float-shadow">
                         <div class="lower-content">
                             <div class="new-image">
-                                <img src="front/images/resource/news-2.jpg" alt="image" class="w-100">
+                                <img src="front/images/resource/news-4.jpg" alt="image" class="w-100">
                             </div>
                             <h4><a href="/new-open-taldyqorgan">Талдыкорган открылся</a></h4>
                             <ul class="post-meta">
