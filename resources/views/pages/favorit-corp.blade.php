@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-lg-6 pr-lg-4 mb-30">
                     <div class="sec-title">
-                        <div class="big-title">@lang('favorit_corp.system')</div>
+                        <div class="big-title" style="position: relative; top: -40px;">@lang('favorit_corp.system')</div>
                         <h1>@lang('favorit_corp.20_years_on_the_market')</h1>
                     </div>
                     <div class="text-block-one dark">

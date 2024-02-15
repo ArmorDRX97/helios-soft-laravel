@@ -7,7 +7,7 @@
             <div class="outer-box">
                 <ul class="bread-crumb clearfix">
                     <li><a href="/news"><span class="fa fa-newspaper-o"></span>@lang('layout.news')</a></li>
-                    <li class="active">Налоги, исчесление налогов меняется с 2024
+                    <li class="active">Исчисление налогов меняется с 2024
                     </li>
                 </ul>
             </div>
@@ -37,10 +37,10 @@
                                 </div>
                             </div>
                             <!-- share box -->
-                            <ul class="share-box">
-                                <li><a href="#">налоги</a></li>
-                                <li><a href="#">изменения</a></li>
-                            </ul>
+{{--                            <ul class="share-box">--}}
+{{--                                <li><a href="#">налоги</a></li>--}}
+{{--                                <li><a href="#">изменения</a></li>--}}
+{{--                            </ul>--}}
                         </div>
                     </div>
 

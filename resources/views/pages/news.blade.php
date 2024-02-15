@@ -28,7 +28,7 @@
                                 </div>
                                 <div class="lower-content">
                                     <div class="category" style="display: none;"><a href="#">Новость</a></div>
-                                    <h4><a href="/new-taxes-change">Налоги, исчесление налогов меняется с 2024</a></h4>
+                                    <h4><a href="/new-taxes-change">Исчисление налогов меняется с 2024</a></h4>
                                     <ul class="post-meta">
                                         <li><span>03.01.2024 13:48</span></li>
                                     </ul>
@@ -50,7 +50,8 @@
                                 </div>
                                 <div class="lower-content">
                                     <div class="category" style="display: none;"><a href="#">Новость</a></div>
-                                    <h4><a href="/new-successful-implementation-completed">Антикор Туркестан, Павлодар, Акмола</a></h4>
+                                    <h4><a href="/new-successful-implementation-completed">Успешная реализация пилотных проектов
+                                        </a></h4>
                                     <ul class="post-meta">
                                         <li><span>29.12.2023 12:37</span></li>
                                     </ul>

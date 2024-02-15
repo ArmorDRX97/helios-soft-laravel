@@ -56,7 +56,7 @@
                             <div class="new-image">
                                 <img src="front/images/resource/news-2.jpg" alt="image" class="w-100">
                             </div>
-                            <h4><a href="/new-taxes-change">Налоги, исчесление налогов меняется с 2024</a></h4>
+                            <h4><a href="/new-taxes-change">Исчисление налогов меняется с 2024</a></h4>
                             <ul class="post-meta">
                                 <li><span>03.01.2024 13:48</span></li>
                             </ul>
@@ -73,7 +73,7 @@
                             <div class="new-image">
                                 <img src="front/images/resource/news-3.jpg" alt="image" class="w-100">
                             </div>
-                            <h4><a href="/new-successful-implementation-completed">Антикор Туркестан, Павлодар, Акмола</a></h4>
+                            <h4><a href="/new-successful-implementation-completed">Успешная реализация пилотных проектов</a></h4>
                             <ul class="post-meta">
                                 <li><span>29.12.2023 12:37</span></li>
                             </ul>
@@ -90,11 +90,11 @@
                             <div class="new-image">
                                 <img src="front/images/resource/news-4.jpg" alt="image" class="w-100">
                             </div>
-                            <h4><a href="/new-open-taldyqorgan">Талдыкорган открылся</a></h4>
+                            <h4><a href="/new-open-taldyqorgan">Новый Этап: Открытие Контакт-Центра "Helios Soft" в Талдыкоргане</a></h4>
                             <ul class="post-meta">
                                 <li><span>02.12.2023 09:20</span></li>
                             </ul>
-                            <div class="text">Новый Этап: Открытие Контакт-Центра "Helios Soft" в Талдыкоргане
+                            <div class="text">ТОО «Helios Soft» продолжает укреплять свое присутствие в регионах Казахстана
                             </div>
                             <div class="link-btn"><a href="/new-open-taldyqorgan" class="read-more-btn">@lang('index.read_more') <span
                                         class="fa fa-long-arrow-right"></span></a></div>

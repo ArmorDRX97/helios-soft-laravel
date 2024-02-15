@@ -24,11 +24,7 @@
                                 <img src="front/images/resource/news-4.jpg" alt="">
                             </div>
                             <div class="lower-content">
-                                <h1>Талдыкорган открылся</h1>
-                                <div class="text">
-                                    <b>Новый Этап: Открытие Контакт-Центра "Helios Soft" в Талдыкоргане</b>
-                                </div>
-                                <br><br>
+                                <h1>Новый Этап: Открытие Контакт-Центра "Helios Soft" в Талдыкоргане</h1>
                                 <div class="text">
                                     <p>ТОО «Helios Soft» продолжает укреплять свое присутствие в регионах Казахстана. С
                                         радостью сообщаем о недавнем открытии нашего Контакт-Центра в городе Талдыкорган.
@@ -43,10 +39,10 @@
                                 </div>
                             </div>
                             <!-- share box -->
-                            <ul class="share-box">
-                                <li><a href="#">Открытие</a></li>
-                                <li><a href="#">Расширение</a></li>
-                            </ul>
+{{--                            <ul class="share-box">--}}
+{{--                                <li><a href="#">Открытие</a></li>--}}
+{{--                                <li><a href="#">Расширение</a></li>--}}
+{{--                            </ul>--}}
                         </div>
                     </div>
 

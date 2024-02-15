@@ -7,7 +7,7 @@
             <div class="outer-box">
                 <ul class="bread-crumb clearfix">
                     <li><a href="/news"><span class="fa fa-newspaper-o"></span>@lang('layout.news')</a></li>
-                    <li class="active">Антикор Туркестан, Павлодар, Акмола
+                    <li class="active">Успешная реализация пилотных проектов
                     </li>
                 </ul>
             </div>
@@ -37,9 +37,9 @@
                                 </div>
                             </div>
                             <!-- share box -->
-                            <ul class="share-box">
-                                <li><a href="#">Итоги</a></li>
-                            </ul>
+{{--                            <ul class="share-box">--}}
+{{--                                <li><a href="#">Итоги</a></li>--}}
+{{--                            </ul>--}}
                         </div>
                     </div>
 

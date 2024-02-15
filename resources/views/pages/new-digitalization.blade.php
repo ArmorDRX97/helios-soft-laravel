@@ -36,10 +36,10 @@
                                 </div>
                             </div>
                             <!-- share box -->
-                            <ul class="share-box">
-                                <li><a href="#">Цифровизация</a></li>
-                                <li><a href="#">Награды</a></li>
-                            </ul>
+{{--                            <ul class="share-box">--}}
+{{--                                <li><a href="#">Цифровизация</a></li>--}}
+{{--                                <li><a href="#">Награды</a></li>--}}
+{{--                            </ul>--}}
                         </div>
                     </div>
 

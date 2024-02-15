@@ -35,10 +35,10 @@
                                 </div>
                             </div>
                             <!-- share box -->
-                            <ul class="share-box">
-                                <li><a href="#">Сертификация</a></li>
-                                <li><a href="#">Развитие</a></li>
-                            </ul>
+{{--                            <ul class="share-box">--}}
+{{--                                <li><a href="#">Сертификация</a></li>--}}
+{{--                                <li><a href="#">Развитие</a></li>--}}
+{{--                            </ul>--}}
                         </div>
                     </div>
 

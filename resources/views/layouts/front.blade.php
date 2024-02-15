@@ -278,7 +278,7 @@
                                     <li><a href="https://help.fvr.kz/">@lang('layout.wiki_favorit')</a></li>
                                     <li><a href="https://zp.fvr.kz/">@lang('layout.zp_calc')</a></li>
                                     <li><a href="https://www.instagram.com/helios_soft/"><i class="fa fa-instagram"></i> Instagram</a></li>
-                                    <li><a href="https://www.instagram.com/helios_soft/"><i class="fa fa-instagram"></i> Youtube</a></li>
+                                    <li><a href="https://www.youtube.com/@FavorIT_expert"><i class="fa fa-youtube"></i> Youtube</a></li>
                                 </ul>
                             </div>
                         </div>
