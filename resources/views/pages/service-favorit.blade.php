@@ -8,7 +8,7 @@
                 <h1>@lang('favorit_support.technical_support_for_favorit_system')</h1>
                 <p>@lang('favorit_support.professional_training_quality_support_and_high_technical_support')</p>
                 <div class="link-btn">
-                    <a href="/contact" target="_blank" class="theme-btn btn-style-seven">@lang('layout.contact_us') <i
+                    <a href="/contact" class="theme-btn btn-style-seven">@lang('layout.contact_us') <i
                             class="fa fa-arrow-right ml-10"></i></a>
                 </div>
             </div>

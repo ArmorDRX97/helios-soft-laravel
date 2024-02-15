@@ -9,7 +9,7 @@
                     <h1>@lang('favorit_education.erp_system_title')</h1>
                     <p>@lang('favorit_education.erp_system_description')</p>
                     <div class="link-btn">
-                        <a href="#!" class="theme-btn btn-style-one">
+                        <a href="/Setup_42.exe" class="theme-btn btn-style-one">
                             <i class="fa fa-download mr-3"></i>@lang('favorit_education.download_button')
                         </a>
                         <a href="/contact" class="theme-btn btn-style-seven">

@@ -9,7 +9,7 @@
                     <h1>@lang('favorit_corp.erp_system_favorit')</h1>
                     <p>@lang('favorit_corp.efficient_planning_and_accounting')</p>
                     <div class="link-btn">
-                        <a href="#!" class="theme-btn btn-style-one"><i
+                        <a href="/Setup_42.exe" class="theme-btn btn-style-one"><i
                                 class="fa fa-download mr-3"></i>@lang('favorit_corp.download')</a>
                         <a href="/contact" class="theme-btn btn-style-seven">@lang('favorit_corp.contact_us')</a>
                     </div>
