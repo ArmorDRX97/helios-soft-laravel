@@ -175,6 +175,7 @@
         </div>
     </section>
 
+    <!--
     <section class="contact-form-section sp-two">
         <div class="container">
             <div class="sec-title centered">
@@ -232,7 +233,7 @@
         </div>
 
     </section>
-
+-->
     <script src="https://maps.api.2gis.ru/2.0/loader.js"></script>
     <script>
 

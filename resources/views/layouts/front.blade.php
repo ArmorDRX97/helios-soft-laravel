@@ -221,7 +221,7 @@
     <div class="pre-footer">
         <div class="container">
            <div>
-               <a href="#!" class="theme-btn btn-style-seven"><i class="fa fa-download mr-3"></i> Скачать информационную систему "Favorit"</a>
+               <a href="/Setup_42.exe" class="theme-btn btn-style-seven"><i class="fa fa-download mr-3"></i> Скачать информационную систему "Favorit"</a>
            </div>
             <div class="text text-muted">
 
