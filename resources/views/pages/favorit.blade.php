@@ -283,7 +283,7 @@
     <section class="why-chooseus-two sp-one grey-bg">
         <div class="container">
             <div class="sec-title centered style-two deep">
-                <div class="big-title">Favorit</div>
+                <div class="big-title" style="position: relative; top: -10px">Favorit</div>
                 <h1>@lang('favorit_education.key_features')</h1>
             </div>
 

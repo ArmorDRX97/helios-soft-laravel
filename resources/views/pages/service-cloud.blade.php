@@ -16,7 +16,7 @@
         <div class="container">
             <!-- sec tietle -->
             <div class="sec-title centered style-two deep">
-                <div class="big-title">@lang('favorit_cloud.what_it_can_do')</div>
+                <div class="big-title" style="position: relative; top: -20px">@lang('favorit_cloud.what_it_can_do')</div>
                 <h1>@lang('favorit_cloud.capabilities')</h1>
             </div>
             <div class="row">
@@ -78,7 +78,7 @@
             <div class="row">
                 <div class="col-lg-6 pr-lg-4 mb-30">
                     <div class="sec-title">
-                        <div class="big-title">@lang('favorit_cloud.stability')</div>
+                        <div class="big-title" style="position: relative; top: -40px">@lang('favorit_cloud.stability')</div>
                         <h1>@lang('favorit_cloud.quality_assurance')</h1>
                     </div>
                     <div class="text-block-one dark">

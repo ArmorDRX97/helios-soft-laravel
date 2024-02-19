@@ -46,7 +46,6 @@
     <section class="blog-section sp-two">
         <div class="container">
             <div class="sec-title centered style-two">
-                <div class="big-title">@lang('index.latest_news')</div>
                 <h1>@lang('index.latest_news')</h1>
             </div>
             <div class="row">

@@ -21,7 +21,6 @@
                     <div class="col-lg-6">
                         <div class="inner-box">
                             <div class="sec-title deep">
-                                <div class="big-title">@lang('about.section_title')</div>
                                 <h1>@lang('about.mission_statement_main')</h1>
                                 <h4>@lang('about.mission_statement')</h4>
                             </div>
@@ -39,7 +38,7 @@
     <section class="our-experience-three sp-two grey-bg">
         <div class="container">
             <div class="sec-title centered deep">
-                <div class="big-title">@lang('about.title')</div>
+                <div class="big-title" style="position: relative; top: -30px">@lang('about.title')</div>
                 <h1>@lang('about.subtitle')</h1>
             </div>
             <div class="text-center mb-80">
@@ -95,7 +94,7 @@
                     <div class="content-section history-content">
 
                         <div class="sec-title style-two deep">
-                            <div class="big-title">@lang('about.company_title')</div>
+                            <div class="big-title" style="position: relative; top: -20px">@lang('about.company_title')</div>
                             <h1>@lang('about.company_subtitle')</h1>
                         </div>
                         <div class="text mb-80">

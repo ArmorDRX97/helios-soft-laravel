@@ -32,7 +32,7 @@
                 </div>
                 <div class="col-lg-6 pl-lg-5">
                     <div class="sec-title deep">
-                        <div class="big-title">@lang('calc.salary')</div>
+                        <div class="big-title" style="position: relative; top: -30px;">@lang('calc.salary')</div>
                         <h1>@lang('calc.accurate_calculations')</h1>
                     </div>
                     <div class="tab-box mb-30">
@@ -108,7 +108,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="sec-title style-two deep">
-                        <div class="big-title">FAQ</div>
+                        <div class="big-title" style="position: relative; top: -10px">FAQ</div>
                         <h1>@lang('calc.questions_and_answers')</h1>
                     </div>
                     <div class="text">

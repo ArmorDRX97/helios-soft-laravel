@@ -13,7 +13,7 @@
     <section class="our-experience grey-bg sp-two">
         <div class="container">
             <div class="sec-title deep">
-                <div class="big-title">@lang('layout.regions_center')</div>
+                <div class="big-title" style="position: relative; top: -30px">@lang('layout.regions_center')</div>
                 <h1>@lang('layout.our_office_and_contacts')</h1>
             </div>
             <div class="tab-box tab-box-contacts">
