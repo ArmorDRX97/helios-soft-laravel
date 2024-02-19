@@ -72,7 +72,7 @@
                     </a>
                 </div>
                 <div class="service-block-six about-page col-lg-4 col-md-6">
-                    <a href="www.youtube.com" class="inner-box hvr-bounce-to-bottom">
+                    <a href="https://www.youtube.com/@FavorIT_expert" class="inner-box hvr-bounce-to-bottom">
                         <div class="icon-box">
                             <span class="flaticon-headphones"></span>
                         </div>

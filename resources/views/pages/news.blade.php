@@ -73,11 +73,11 @@
                                 </div>
                                 <div class="lower-content">
                                     <div class="category" style="display: none;"><a href="#">Новость</a></div>
-                                    <h4><a href="/new-open-taldyqorgan">Талдыкорган открылся</a></h4>
+                                    <h4><a href="/new-open-taldyqorgan">Новый Этап: Открытие Контакт-Центра "Helios Soft" в Талдыкоргане</a></h4>
                                     <ul class="post-meta">
                                         <li><span>02.12.2023 09:20</span></li>
                                     </ul>
-                                    <div class="text">Новый Этап: Открытие Контакт-Центра "Helios Soft" в Талдыкоргане</div>
+                                    <div class="text">ТОО «Helios Soft» продолжает укреплять свое присутствие в регионах Казахстана</div>
                                     <div class="link-btn"><a href="/new-open-taldyqorgan" class="read-more-btn">@lang('index.read_more') <span class="fa fa-long-arrow-right"></span></a></div>
                                 </div>
                             </div>
