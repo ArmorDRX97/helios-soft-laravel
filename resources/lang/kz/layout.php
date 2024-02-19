@@ -33,4 +33,5 @@ return [
     'phone' => 'Телефон нөмірі',
     'your_message' => 'Сіздің хабарламаңыз',
     'contact_us' => 'Бізге хабарласыңыз',
+    'favorit_download' => '"Favorit" АЖ жүктеп алу',
 ];

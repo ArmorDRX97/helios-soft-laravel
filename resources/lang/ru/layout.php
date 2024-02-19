@@ -33,4 +33,5 @@ return [
     'phone' => 'Телефон',
     'your_message' => 'Ваше сообщение',
     'contact_us' => 'Связаться с нами',
+    'favorit_download' => 'Скачать информационную систему "Favorit"',
 ];
