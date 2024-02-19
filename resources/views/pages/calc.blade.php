@@ -1,7 +1,6 @@
 @extends('layouts.front')
 
 @section('content')
-
     <div class="product-main" style="background-image: url(front/images/main-slider/image-20.jpg);">
         <div class="container">
             <div class="text-center">
@@ -61,7 +60,7 @@
                                     <i class="flaticon-computer-2"></i>
                                 </div>
                                 <div class="count-outer count-box">
-                                    <span data-stop="8281425" class="count-text" data-speed="3000"></span>
+                                    <span data-stop="8281425" class="count-text" id="total" data-speed="3000"></span>
                                     <p>@lang('calc.total_calculations')</p>
                                 </div>
                             </div>
@@ -76,7 +75,7 @@
                                     <i class="flaticon-project"></i>
                                 </div>
                                 <div class="count-outer count-box">
-                                    <span data-stop="51524" class="count-text" data-speed="3000"></span>
+                                    <span data-stop="51524" class="count-text" id="month" data-speed="3000"></span>
                                     <p>@lang('calc.last_30_days')</p>
                                 </div>
                             </div>
@@ -92,7 +91,7 @@
                                     <i class="flaticon-group"></i>
                                 </div>
                                 <div class="count-outer count-box">
-                                    <span data-stop="458" class="count-text" data-speed="3000"></span>
+                                    <span data-stop="458" class="count-text" id="day" data-speed="3000"></span>
                                     <p>@lang('calc.today')</p>
                                 </div>
                             </div>
@@ -130,5 +129,40 @@
 
         </div>
     </section>
+    <script>
+        function fetchData(url) {
+            return new Promise((resolve, reject) => {
+                const xhr = new XMLHttpRequest();
+                xhr.open('GET', url);
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === XMLHttpRequest.DONE) {
+                        if (xhr.status === 200) {
+                            resolve(JSON.parse(xhr.responseText));
+                        } else {
+                            reject(xhr.statusText);
+                        }
+                    }
+                };
+                xhr.onerror = function () {
+                    reject('Network error.');
+                };
+                xhr.send();
+            });
+        }
 
+        const apiUrl = 'https://zp.fvr.kz/stat';
+        const totalElement = document.getElementById('total');
+        const monthElement = document.getElementById('month');
+        const dayElement = document.getElementById('day');
+        fetchData(apiUrl)
+            .then(data => {
+                console.log('Полученные данные:', data);
+                totalElement.setAttribute('data-stop', data.total);
+                monthElement.setAttribute('data-stop', data.month);
+                dayElement.setAttribute('data-stop', data.day);
+            })
+            .catch(error => {
+                console.error('Произошла ошибка:', error);
+            });
+    </script>
 @endsection
